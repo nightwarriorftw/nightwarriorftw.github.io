@@ -1,7 +1,7 @@
 ---
 
 title: Hello New Blog
-date: Jan 27, 2019
+date: 2019-27-01T16:25:21.303Z
 ---
 
 This is my first blog with help for gatsby
