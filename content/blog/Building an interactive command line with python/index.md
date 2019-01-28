@@ -1,11 +1,27 @@
 ---
 
 title: Invoking the command line with python 
-date: 2019-28-01T10:45:21.303Z
+date: 2019-28-01
 ---
 
-```cmd2``` is a tool for building interactive command line applications in python. It's main aim is to make work easy for developers and help them to work fast. It's a python module and is an extension of ```cmd``` (which is a simple framework for writing line-oriented command interpreters).
+cmd2 is a tool for building interactive command line applications in python. It's main aim is to help developers work fast and efficiently.
+
+### Description 
+```cmd2``` is a python module and is an extension of ```Cmd``` (which is a simple framework for writing line-oriented command interpreters).It's main feature is autocompletion. 
 
 ### Installation
-	```pip install cmd2```
+```pip install cmd2```
 
+### Basics 
+
+```
+from cmd2 import Cmd
+
+class Demo(Cmd):
+	def __init__(self):
+		Cmd.__init__(self)
+
+if __name__ == '__main__':
+	app = Demo()
+	app.cmdloop()
+```
