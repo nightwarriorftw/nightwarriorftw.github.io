@@ -1,7 +1,7 @@
 ---
 
 title: Invoking the command line with python 
-date: 2019-28-01
+date: "2019-01-28T17:12:33.962Z"
 ---
 
 cmd2 is a tool for building interactive command line applications in python. It's main aim is to help developers work fast and efficiently.
