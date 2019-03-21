@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Nighty Night`,
+    title: `Learn to talk to computers`,
     author: `nightwarrior-xxx`,
-    description: `Learning to talk to computers`,
+    description: `Stop Talking | Start Programming`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `nightwarrior_xx`,
