@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nighty Night]]></title><description><![CDATA[Learning to talk to computers]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Mar 2019 22:44:06 GMT</lastBuildDate><item><title><![CDATA[Invoking the command line with python]]></title><description><![CDATA[cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Building an interactive command line with python/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Building an interactive command line with python/</guid><pubDate>Mon, 28 Jan 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 21 Mar 2019 08:13:46 GMT</lastBuildDate><item><title><![CDATA[Adding powerline to your Shell]]></title><description><![CDATA[This is how your current terminal looks like 
+ 
+Now with some awesome tricks you can change it too
+ Step 1 Install   and  .
+For Debian based…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Adding Powerline to your Shell/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Adding Powerline to your Shell/</guid><pubDate>Thu, 21 Mar 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;This is how your current terminal looks like
+
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 80.24502297090352%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAABFklEQVQ4y+WTzU7CUBCFp6zUdIfpQkiksey7ktcygiX6DrKiWlpt2t5W+gu6MzwbzrE/aIIrQXcsvszMSebMTeYOeb7L0VxAhD4HwkMkBKIXgXyRYrHMUSwypFmM5WtR13ESIc3jWmuYI8sTXr4VeHadD0rTBEIE7HkuTHMKu7BgWlM8OTas2SMs6wGTyT0cZ1bntm0hDAMEgV/2NWxyXq3eQbqusyzLaJ+2+eToGKQQiHaGq3g9vGJSVXVnA0mStmi1WrVujEcgra/VxZdIEu01oIo342FpqF1siftwwIYj479faBzoUvoabz42/7yA31L1NoYjpl7v/PsW/wjXSxkMLllRFHS7He50zrAXZW/lcXs3Xn8C8SyrMvkcCN8AAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;terminal without powerline&quot; title=&quot;&quot; src=&quot;/static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png&quot; srcset=&quot;/static/895ab6686d4a312c27ffff0f702e3644/1a291/terminal-without-powerline.png 148w,
+/static/895ab6686d4a312c27ffff0f702e3644/2bc4a/terminal-without-powerline.png 295w,
+/static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png 590w,
+/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png 653w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Now with some awesome tricks you can change it too
+
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 474px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 64.76793248945147%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABzqhNsmN//8QAGBABAQEBAQAAAAAAAAAAAAAAAQARAhL/2gAIAQEAAQUCdlhkyOdvOX//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAAQMQD/2gAIAQEABj8C1K//xAAZEAADAQEBAAAAAAAAAAAAAAAAARExIUH/2gAIAQEAAT8hT2nCGNRjWjuqKF0edP/aAAwDAQACAAMAAAAQ/A//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8QGMv/xAAVEQEBAAAAAAAAAAAAAAAAAAARAP/aAAgBAgEBPxAIv//EABwQAQEBAAEFAAAAAAAAAAAAAAERACExQVFhgf/aAAgBAQABPxCOhARDPw8gXUinnGQlZPl0osvrAuV79N//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;terminal with powerline&quot; title=&quot;&quot; src=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot; srcset=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/4b016/terminal-with-powerline.jpeg 148w,
+/static/19e56b843f78e3f7078d0e909c0e87c4/0ee69/terminal-with-powerline.jpeg 295w,
+/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg 474w&quot; sizes=&quot;(max-width: 474px) 100vw, 474px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;Step 1&lt;/h3&gt;
+&lt;p&gt;Install &lt;code class=&quot;language-text&quot;&gt;font-awesome&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;powerline&lt;/code&gt;.
+For Debian based operating system use the following command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sudo apt install powerline fonts-powerline&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This command might be different for different flavours of Linux based Operating system&lt;/p&gt;
+&lt;h3&gt;Step 2&lt;/h3&gt;
+&lt;p&gt;Change the configurations of your &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt;.
+Open the terminal and type &lt;code class=&quot;language-text&quot;&gt;nano ~/.bashrc&lt;/code&gt; or open your &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; in any text editor.
+Add the following lines&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if [ -f `which powerline-daemon` ]; then
+   powerline-daemon -q
+   POWERLINE_BASH_CONTINUATION=1
+   POWERLINE_BASH_SELECT=1
+   . /usr/share/powerline/bindings/bash/powerline.sh
+fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Make sure the last line in the above is the path where the &lt;code class=&quot;language-text&quot;&gt;powerline&lt;/code&gt; tool is installed. It might be different for different operating system. Set this path according to your operating system.&lt;/p&gt;
+&lt;h3&gt;Step 3&lt;/h3&gt;
+&lt;p&gt;Source your &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; file in order to add changes.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Invoking the command line with python]]></title><description><![CDATA[cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Building an interactive command line with python/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Building an interactive command line with python/</guid><pubDate>Mon, 28 Jan 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently.&lt;/p&gt;
 &lt;h3&gt;Description&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;cmd2&lt;/code&gt; is a python module and is an extension of &lt;code class=&quot;language-text&quot;&gt;Cmd&lt;/code&gt; (which is a simple framework for writing line-oriented command interpreters).It’s main feature is autocompletion. &lt;/p&gt;
 &lt;h3&gt;Installation&lt;/h3&gt;
