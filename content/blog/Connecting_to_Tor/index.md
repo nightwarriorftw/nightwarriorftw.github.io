@@ -45,4 +45,4 @@ Besides these there are several other PL whose details can be found [here](https
 
 Another option that Tor provides so that client can connect to the Tor network is *Providing a bridge that I know*. A client can manually add a bridge to connect to Tor network. But make sure to add a bridge that you trust. Clients can get these bridges from
 [Tor Bridge](https://bridges.torproject.org/options) where Tor has provide another facility of obtaining bridges. Select the type of bridge you want, verify captca and Tor will provide you a bridge which you can use to connect to Tor network.
-Tor provide these pluggable transport to achieve anonymous communication.
+Tor is open source and provide these pluggable transport to achieve anonymous communication for free. 
