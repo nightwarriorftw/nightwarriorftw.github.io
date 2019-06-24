@@ -5,9 +5,10 @@ date: "2019-03-21T17:12:33.962Z"
 ---
 
 This is how your current terminal looks like 
-<img src="terminal-without-powerline.png">
+![terminal_without_powerline](./terminal-without-powerline.png)
+
 Now with some awesome tricks you can change it too
-<img src="terminal-with-powerline.jpeg">
+![Terminal with powerline](terminal-with-powerline.jpeg)
 
 ### Step 1
 
