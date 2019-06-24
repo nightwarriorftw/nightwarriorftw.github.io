@@ -126,6 +126,7 @@ pip install azure-storage
 ```
 
 - Import the serivces and send the message
+
 ```
 from azure.storage.queue import QueueService
 
@@ -176,6 +177,7 @@ pip install azure-cosmosdb-table
 ```
 
 - import table service and entity class
+
 ```
 from azure.cosmosdb.table.tableservice import TableService
 from azure.cosmosdb.table.model import Entity
