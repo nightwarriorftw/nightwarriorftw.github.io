@@ -1,3 +1,9 @@
+---
+
+title: Azure Storage
+date: "2019-06-24T13:10:33.962Z"
+---
+
 # Why storage
 Suppose you have a image processing website . You don't want your website to function slowly. So you have a backend servers for that. Now you also don't want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers. 
 After processing those all data should be now store somewhere else so you need a storage for that also. You don't use a database for storing because you can store object in database.
