@@ -1,4 +1,188 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 09:37:56 GMT</lastBuildDate><item><title><![CDATA[Azure Storage]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://nightwarrior-xxx.github.io//Azure Strorage/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Azure Strorage/</guid><pubDate>Mon, 24 Jun 2019 13:10:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 15:04:54 GMT</lastBuildDate><item><title><![CDATA[Azure DevOps]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io//AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
+&lt;p&gt;Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications.&lt;/p&gt;
+&lt;h3&gt;What is DevOps ?&lt;/h3&gt;
+&lt;p&gt;DevOps is a integration of Development and Operations teams in order to improve collaboration and productivity. This is done by automating workflows and productivity.
+Alternatively, DevOps is a set of practices to reduce the time between the committing a change and move it into production stage.&lt;/p&gt;
+&lt;h3&gt;Components of Azure DevOps&lt;/h3&gt;
+&lt;p&gt;Following are the components of Azure DevOps&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pipelines&lt;/li&gt;
+&lt;li&gt;Boards&lt;/li&gt;
+&lt;li&gt;Artificats&lt;/li&gt;
+&lt;li&gt;Repos&lt;/li&gt;
+&lt;li&gt;Test Plans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Azure Pipelines&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/986ed/azure_pipeline.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 184px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.28260869565217%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACCElEQVQ4y42US0wTURSGm7gwLkxMDIlGFyALUFywEDWViLgwJCx00dRHFINCApFGg6x0Z4yJutcQH8SdwUdAEkpBF9Jo0erCDS7EoTMIbWl5tBVsO3Pnc5xSBTtTPcnJnTkz95/v3P/ecVAkdF1fMxZ7Jx8Oq8n5/LsenleJLuQyPKeSUdfOsRXUNB11Vf6Kqz0xqttlajpknBcVqttknvmT5jNNWAgWa63vTYptJyX2XFBouhWhvusbW9wSD32JnKBWhFDVBL2vwtx5rnCvX6G7f5qDnVOUnp7k0t0Yj18vcbN3gTLj/tFIwp5QrBTiixl2uEZZV+tjwyEfJcc+satFobxJwn3d+NBA0hTefkrivnfRnlCIXCE6n6bihJ/NDS8pdQepalXY3SpzoDNM5bkQ+zyKOZa4JF4EUvaEf1rWabz8AYdzxGhrgqoWmSNXYtR1RdlpCJWdkc21fDKaLHC4wJQ85axB2X57HNe1aYNs1hCLUNE8SfnZEE7PF0KRTIGYLWHW2FvxhDCvB4M/OH4jbq5hZfNXNja85bDnXUGbloT5YmJJ8NT//TftYGCOTY1Bth71s75uiPqO96YJVu1aCqaWBT3DKYY/LhOKqobraWrbAjj2e3HUeNl7PoAu7I+kpSnjcoaxz2kmZrIrWynLg4EpuvsUhsZitnT/dVI0of/zh7A6fgICWueDkG/qSQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Pipeline&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/986ed/azure_pipeline.png&quot;
+        srcset=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/ccfbf/azure_pipeline.png 148w,
+/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/986ed/azure_pipeline.png 184w&quot;
+        sizes=&quot;(max-width: 184px) 100vw, 184px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Azure Pipeline is a service where you can build , test and deploy your applications continously.&lt;/p&gt;
+&lt;h4&gt;Azure Boards&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/67599b21a909832546fe8031a571fbd9/440ab/azure_boards.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 207px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.08212560386474%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABo0lEQVQ4y5WTy0sCURTG+7eCFi4KCrOIIgRbRSG1CYkWFUIqBG1qyimDSCvNyiRJLV+J9DDNDG1VEdSmoqAoinygM1/jgHKVGbUDh3tn5vC73zfnngYQwbIsn+ReLIs1ldFQCSyuDMMgX0yW2HPJcM+VAgSBYqcKhVidoMKCClsyCjocwHIkiOVokF8N50egTr3w3l7zdUwthcWP6WwWg/ZVNG/NQ2qhoDxxoP9oB7KdRbTs0lD77KWD6wKmMhmMuq0Yu/RiwG2GwmlEn9OEbtMsWldmoPPv/Q/4m0lD5bJAexOG0rOJjs15dG3pIeNgElqDqUNbGZCEiloe4ixLbTQ6N+bQSmvRbqXQ61lDm8OA8eP9OrrMEpY5oGKdQqNejSZqEpIlDQZCNvQcGKG7CmKaUx57fyYaUwNYsGJPRLAQcsN4FsBEyAFV3AP/xxO2n+8gP95G6O1RsNNlQLH79ZXLQnmxj5GED/LwLoZjLnxm04K2a05Kjsnz715S31i9j8P8kMRr6qekrurFLv0MlvdfdWYrZ1509Eg2WVxQQ6ZYl/8ARS4P+AxeukcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Boards&quot;
+        title=&quot;&quot;
+        src=&quot;/static/67599b21a909832546fe8031a571fbd9/440ab/azure_boards.png&quot;
+        srcset=&quot;/static/67599b21a909832546fe8031a571fbd9/db4c3/azure_boards.png 148w,
+/static/67599b21a909832546fe8031a571fbd9/440ab/azure_boards.png 207w&quot;
+        sizes=&quot;(max-width: 207px) 100vw, 207px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;If your are working in a team your communication should be better. Azure Boards helps you to track your work. Also, it helps you to deal with backlogs and maintain custom reports.&lt;/p&gt;
+&lt;h4&gt;Azure Artificats&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b6048e4bdc3b710155d852aac72cda89/f0cf0/azure_artificats.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 276px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.89855072463768%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABFklEQVQoz2P4jwb+/fsHp//9BeG/CIwkhwswYBPEpwGfHFYDkV3x7fnb/18fvvz/BYSfvP7/789f0lwI9iZU8Z8fv/6fLZr2f39I/f8jUS3/D6d0/f/x9iOGOqJdCAJncif/3+9b9f+Af83/vZGN/398/AJR85cMF767dv//waim/0eCG/4fCWv6fziu7f+nqw9JcyHcuz9//d8WXv1/vm7E/6vFs/9fLZr9/17d8v/3mlf+//3xK95wxG7gj5//17vn/Z8r4/P/esHs/4/qV/6/Wzz//82y+f9/ffhCuoF/f//5f7J57v/dKS3/H8/b9f/V8sP/n8/f8//p4n3//3z9QbyBxKQzkpMNIpcgcgci1/wjmFsAfChFHG810fkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Aritifcats&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b6048e4bdc3b710155d852aac72cda89/f0cf0/azure_artificats.png&quot;
+        srcset=&quot;/static/b6048e4bdc3b710155d852aac72cda89/1d108/azure_artificats.png 148w,
+/static/b6048e4bdc3b710155d852aac72cda89/f0cf0/azure_artificats.png 276w&quot;
+        sizes=&quot;(max-width: 276px) 100vw, 276px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Azure Arificats helps you to create, host and share packages among your team. It also ensures that your pipeline has fully integrated package management system.&lt;/p&gt;
+&lt;h4&gt;Azure Repos&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/7e9bc/azure_repos.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 190px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.526315789473685%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABdklEQVQoz2P4jwb+/fsHp//9/QukkfBfKEZSgw4YcBqGRTFcHdDQ/zgMRRj47z+GYY82Lf6/O9r2//40LzDeHWP3/8WhbXBD8bvwH8KbIPB679r/+1wV/+9wkvu/zU7q/3YgBrEP+mj+f39qH05DMbwMU3ClPOz/6Siz/7dqY/+fTbT/fy7d/f/t1sz/JyPN/t9syyTdwOtAg85EGv+/3572/1SYwf/TMRb/H06r+n8qwvj/nZ58Mgysjvl/3Evx/43ykP+XMt3+P5xY8v/xtMr/R5wlgQYWEG8gLHauVUb+P+4q9f/Zoo7/jyaX/r+S4/H/VID6/+NuUv9vd+aSbuCVkpD/52LM/j9e1PX/XJzV/2NAw08H6wANlCbSQGgsw9LXhQy3/6f8Nf5frYz6fxYYbkesBf8fc5b6f9CE4/+NuiTiDYQpeHtk+/8ny6f8f7F16f+na2b9f7Z2zv9n6+b+f7Ji6v/3Zw5CfUTAy+g5Bh/ApQYApLFbA2Pyn64AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Repos&quot;
+        title=&quot;&quot;
+        src=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/7e9bc/azure_repos.png&quot;
+        srcset=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/7413b/azure_repos.png 148w,
+/static/de61b85f67f91a3691e32b5c0a1a3962/7e9bc/azure_repos.png 190w&quot;
+        sizes=&quot;(max-width: 190px) 100vw, 190px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Just think it as a storage where you can store your code. It provides you with unlimited private git repos where you can push, pull and commit changes.&lt;/p&gt;
+&lt;h4&gt;Azure Test Plan&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/3b993/azure_testplan.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 228px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 64.91228070175438%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABO0lEQVQ4y2P4T2XAgEvi379/cBoZI8sRbSBMPTaN+AzD40KEa/7++ff/718o/kO2CyEGgMCDqx/+zyo/+39u9bn/T+98hljy9x9OQxmwGYZs4IsHX/43hhz43xZz+P+7F98gav7CwpRIA2FeBYFze57/bwk/9L816tD/q8deochhcyUDNtf9g7ru68df/ydknvg/vfDc/2XNN/7PKjv3/+f3PxixTzAMYS7YNOPG/3nl1/5f2P7l/45Zj/6Xe+z+v3/lfTRXEnAhTOHt86//R6gs+V/nd/D/7Nyb//Ntt/0PV178P1F/1f/Ht97jjBwsBv4Fsy8efvY/QX/F/1TT1f+zbTb8TzFe9T/FdBWYf+vca7grifIyTNH3L7/+f37/4/+nd9//f/n4E8z+8fU33rSINVIIJV70bIkMANK84Rccs75LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Test Plans&quot;
+        title=&quot;&quot;
+        src=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/3b993/azure_testplan.png&quot;
+        srcset=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/f6ebb/azure_testplan.png 148w,
+/static/72225b1ab4c057e3ac085e9bc0ff84ad/3b993/azure_testplan.png 228w&quot;
+        sizes=&quot;(max-width: 228px) 100vw, 228px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;It is a complete toolkit which provides end-to-end and manual testing ensuring your software is working just fine.&lt;/p&gt;
+&lt;p&gt;This is just a small blog post on Azure Devops. I will be back with a bigger one till then stay tuned !! &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Storage]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://nightwarrior-xxx.github.io//AzureStrorage/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureStrorage/</guid><pubDate>Mon, 24 Jun 2019 13:10:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
 &lt;p&gt;Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also don’t want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
 After processing those all data should be now store somewhere else so you need a storage for that also. You don’t use a database for storing because you can store object in database.&lt;/p&gt;
 &lt;p&gt;
@@ -643,7 +827,7 @@ Entities having same PartitionKey are stored on the same node. RowKey are used a
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;In this way you can simple use the Azure Cosmosdb.&lt;/p&gt;
-&lt;p&gt;Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://nightwarrior-xxx.github.io//Connecting_to_Tor/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Connecting_to_Tor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
+&lt;p&gt;Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://nightwarrior-xxx.github.io//ConnectingToTor/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//ConnectingToTor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
 &lt;h2&gt;Bridging in Tor&lt;/h2&gt;
 &lt;p&gt;Bridges are also known as &lt;em&gt;Tor relays&lt;/em&gt;. Since there is no complete public list of Tor bridges the number of bridges that Tor runs are uncountable. That means if your ISP is tracking you and trying to filter your connections, he can’t block all the Tor relays. In case if you are blocked from getting connected to Tor network, this is where Tor bridges comes into play. Tor bridges not only helps you to connect to Tor network but it keeps your privacy safe and secure. Do try connecting to Tor network without using bridges in case it worked then it’s well and good.&lt;/p&gt;
 &lt;p&gt;Over the last few years ISPs have found ways of blocking client from connecting to Tor network. They have detectors which stops the flow of traffic when they detect Tor traffic. To conquer this problem Tor has introduced a concept of &lt;strong&gt;pluggable transport&lt;/strong&gt; which manipulates the traffic between client and first hop of Tor relay thus nullfying the chances of blocking you from Tor network.
@@ -872,7 +1056,7 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
  
 Now with some awesome tricks you can change it too
  Step 1 Install   and  .
-For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Adding Powerline to your Shell/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Adding Powerline to your Shell/</guid><pubDate>Thu, 21 Mar 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;This is how your current terminal looks like
+For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Powerline/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Powerline/</guid><pubDate>Thu, 21 Mar 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;This is how your current terminal looks like
 
   &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
@@ -919,7 +1103,7 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Make sure the last line in the above is the path where the &lt;code class=&quot;language-text&quot;&gt;powerline&lt;/code&gt; tool is installed. It might be different for different operating system. Set this path according to your operating system.&lt;/p&gt;
 &lt;h3&gt;Step 3&lt;/h3&gt;
 &lt;p&gt;Source your &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; file in order to add changes.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Invoking the command line with python]]></title><description><![CDATA[cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently…]]></description><link>https://nightwarrior-xxx.github.io//Building an interactive command line with python/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Building an interactive command line with python/</guid><pubDate>Mon, 28 Jan 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Invoking the command line with python]]></title><description><![CDATA[cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently…]]></description><link>https://nightwarrior-xxx.github.io//PythonInteractiveCommandLine/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//PythonInteractiveCommandLine/</guid><pubDate>Mon, 28 Jan 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently.&lt;/p&gt;
 &lt;h3&gt;Description&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;cmd2&lt;/code&gt; is a python module and is an extension of &lt;code class=&quot;language-text&quot;&gt;Cmd&lt;/code&gt; (which is a simple framework for writing line-oriented command interpreters).It’s main feature is autocompletion. &lt;/p&gt;
 &lt;h3&gt;Installation&lt;/h3&gt;

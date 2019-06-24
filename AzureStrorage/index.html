@@ -1,0 +1,662 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/app.bddaef654c66ded1434d.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-50d279861fb3cbfed809eae6ed8b9ac9.woff2) format("woff2"),url(/static/montserrat-latin-100-5e334eff013f12fbb8ed72c2a253f119.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-8c0705336558194799a8729840d7ed9d.woff2) format("woff2"),url(/static/montserrat-latin-100italic-03e19243272affe738654a157625ec26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-4343d3d91a9446226e7a8bbb024111ad.woff2) format("woff2"),url(/static/montserrat-latin-200-f2022ecd65a0703ec3edcb7641709a75.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-116c4c4b14ef76b0555da09854512022.woff2) format("woff2"),url(/static/montserrat-latin-200italic-89614a6008fc5c60739012463d0ee7e6.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-d2ad295b60682a6537c358e06ea80c61.woff2) format("woff2"),url(/static/montserrat-latin-300-3a371ee0d175f5c2b15ce1d6b981dc4e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f6b6bf2431003f8142e800f9df157989.woff2) format("woff2"),url(/static/montserrat-latin-300italic-16521668f5f238098329cdd7d27c391e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-240a84447b78da0920fcb07e378f2c5f.woff2) format("woff2"),url(/static/montserrat-latin-400-b20cc131034316b1c85d0498fb9ed5c5.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-86172bb829de6be08b92512096b6aca6.woff2) format("woff2"),url(/static/montserrat-latin-400italic-9405e78785a55cf0e4ea7669d4616ea9.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-fb8d6b71dbe8d9294be43082936f649e.woff2) format("woff2"),url(/static/montserrat-latin-500-50825d47af7ae47e055018eb689c6c99.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-c0a555a4f8e997385a3eebbd4da0b9ee.woff2) format("woff2"),url(/static/montserrat-latin-500italic-635de59c4be86285b1f70068c95b9816.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-d5615136a08cfee70deb4be1ee1651df.woff2) format("woff2"),url(/static/montserrat-latin-600-f300da4fb4fe00e23915f62b2c643681.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-10f29d139edacde92df63374c5672568.woff2) format("woff2"),url(/static/montserrat-latin-600italic-2bc37d86a4ba12ce526c4af904a9946e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-7d77e1f03eefc452dab14d7f89080083.woff2) format("woff2"),url(/static/montserrat-latin-700-81826529772e52f0f14a4c73c2f2c7f1.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-1dd2b53f1567a29e0505de9b27c4352c.woff2) format("woff2"),url(/static/montserrat-latin-700italic-c162d257f5e9f9b108a96a604cfb2132.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-d4e7bf86bbd8e5f43ca73fa831218648.woff2) format("woff2"),url(/static/montserrat-latin-800-895aadbff357be35ac8dd107c7975ee7.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-fc0cbe442f7b3733c91e982e825c4daa.woff2) format("woff2"),url(/static/montserrat-latin-800italic-b3362875067300abedb7a8fb97903258.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-c8bdd772c0d1347720ff7e3fb72719f3.woff2) format("woff2"),url(/static/montserrat-latin-900-1b99ef78e627dd9bbd0ca4b5c0789547.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-cb72c1f90f66c124fb897a75bec64c78.woff2) format("woff2"),url(/static/montserrat-latin-900italic-b78bb9f8ecec6c5a924c873f1818095f.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-f015f1e9a46a3b9db4fd64564dacece4.woff2) format("woff2"),url(/static/merriweather-latin-300-92dfe81b725c342d31d962da975c07a6.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-7fd86b32accf2df4403d1d4fa3a81502.woff2) format("woff2"),url(/static/merriweather-latin-300italic-878b76f59d5ba58dd1652dc8d2a0f4f9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-12dbf4c00ae43698f278b099e4b0ec9e.woff2) format("woff2"),url(/static/merriweather-latin-400-1fffad22b085a877995812dbf1d9ac08.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-1e0d3e8121d88969bfb153c8f174b758.woff2) format("woff2"),url(/static/merriweather-latin-400italic-de18d4c4e8e808a7248a185f866ff094.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-dc8fec81a125fc63856587e6683da73b.woff2) format("woff2"),url(/static/merriweather-latin-700-d7d2ed8e58f303392cc3fc00ba3a9186.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-b7b7e5da4d7be8c12bd5a6c809edc8fc.woff2) format("woff2"),url(/static/merriweather-latin-700italic-6210a5fc1c54ca85a5d82aa85d7a9b5c.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-43f870d543dd89fbeb66d417c0d97276.woff2) format("woff2"),url(/static/merriweather-latin-900-8f3806df74937c7b8b53f24ae1e725d1.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-168c1ab28ed0e4e7d654334def288bc1.woff2) format("woff2"),url(/static/merriweather-latin-900italic-ae7778f01871e35ee142ef207b313b34.woff) format("woff")}</style><meta name="generator" content="Gatsby 2.0.76"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><title data-react-helmet="true">Azure Storage | Learn to talk to computers</title><meta data-react-helmet="true" name="description" content="Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also…"/><meta data-react-helmet="true" property="og:title" content="Azure Storage"/><meta data-react-helmet="true" property="og:description" content="Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="nightwarrior-xxx"/><meta data-react-helmet="true" name="twitter:title" content="Azure Storage"/><meta data-react-helmet="true" name="twitter:description" content="Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also…"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#6b37bf"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-399e0ba4c912a4b13c59.js"/><link as="script" rel="preload" href="/0-2159707fafb24590a999.js"/><link as="script" rel="preload" href="/app-fba13a307b666c6bfc05.js"/><link as="script" rel="preload" href="/webpack-runtime-a0e726fbc29d1fc95764.js"/><link as="fetch" rel="preload" href="/static/d/902/path---azure-strorage-76-d-111-OvMrWJEUl15E4iWQmYM7kJRhU.json" crossOrigin="use-credentials"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Learn to talk to computers</a></h3><h1>Azure Storage</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">June 24, 2019</p><div><h1>Why storage</h1>
+<p>Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also don’t want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
+After processing those all data should be now store somewhere else so you need a storage for that also. You don’t use a database for storing because you can store object in database.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/eaae445f65bec1086674e9e3f93f4fe5/87045/why_storage.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 54.32409739714525%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACV0lEQVQoz1WTS08TYRSG5/e4cy/xJ7gw0YUbXWg0cYMxMW6MiQv8BS50RZS4KMQLiQahZgAJpQSIBHoRaVNK76UznZnOvfN4ZmiLfMmb72vPmfe856ZYtk1bM9DMAT3DShC/wzBkKBjfyTvwBcHF7xECQXz2Tloopu2wtFtg/fBYUGIxe8BmoUx/YKNZNroV3xJs4KG7EaY/pGc5E1tiN2MRJvrARfF8P2GPooj/TxzTD86ja3ZArlRmY0tleXWTYrWJ5QUEsWLxM+r7VNbfYTb2LwjHZ+hLCXLLGKd7cRj5I8SV16eFWZ7fucLNa1NCujHxjxgyrK3hLd4lrCyjuEIYqwvkDofi4Bu4K9P4mRnGmq0ADgt/mfuQ4vP8PKVqA8meyNNwtBKubaB3T/A9GyUYSgT5qKvr6P0uvtXAqmYZNA8gMIjsptQtIJtVefv6NtP3H7KxvYPv6wRmFcd1cRwv4YgFKNpZl/72LPbOG3qH36VmQWKMa2NZJlq7Qq2VZ0VN8+rZE15MP+XnrzT9s9+Jes8PRZk7ootQDvJF6utLaOkFdlQVJzg3EEk3exrtdoe24VIqF/mx+I7U3EfKpw1sd0BkVWjVS3S6PclCyEWJkiudkC8csb+qsraXl1Quup5Qj5qSSr3n8a2r3Ji6zsqoKUPJBrdOpVrnwUyaL2oRxbAscn+O2c0d0Wx1LnV83BTd8SnXWqTVDJnMFtV2D8sPJ36ntSb3Hr3k67dVFFuKGsmsRRItTHB5A+KNsKToPRn0jgxvNxlyB9vzJ9sSyPaYRh9PavkPVOosqNVMxEwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Why_storage"
+        title=""
+        src="/static/eaae445f65bec1086674e9e3f93f4fe5/fb8a0/why_storage.png"
+        srcset="/static/eaae445f65bec1086674e9e3f93f4fe5/1a291/why_storage.png 148w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/2bc4a/why_storage.png 295w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/fb8a0/why_storage.png 590w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/526de/why_storage.png 885w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/fa2eb/why_storage.png 1180w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/87045/why_storage.png 1191w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h1>Storage VS DataBase</h1>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/50f1eda8e67b3726642144902dabfcad/e57a0/storage_database.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 43.38842975206612%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB6UlEQVQoz1WSy2oUQRSG50l8B5/EbVa6c+NewQdwZYKanQSEgJKVIAF1IaKiURzFC1FJZnKZ6enM9LWmp9PX6urP0zUaY8FP1Tl16j//Oad6xrTousDbe8vCP6BIfYwxNE1jQWtwk5ykqJALe1fUDV/GCTvDGG9R2pi/8T0D1InD/rPbDF5vMtl5QFNnNJKolcd5rdkNU0uktSSQdTBV3Ljf59q9Pk/eDa1PnydskiPa51dh+zLNq+tCmKOFUCSxpzKGi2L5SOsl4eiQh+tX2Lq7wssXj6yvkTtL2ClpqhT9fQP9cRU9eCzqDLUtt+XmrsOF7Q+sDaa2NNGNr1LWNza5tXaH919/niX7Rygyu2LOIL66aW3gyqchvdUtLr75IVYrpS/LPr9as+x115aeqRJMOReo5V51SKgLJc1N+TXPuNQf8tSNyPKKuENWEp8Wf1CisoowLSil3z3PmxGHHmEwI/CmeDMX3ztBqQiTh6g857MMpSpKXD9k5vkEUczUD5jK2QtCQrEX8guUJOodj08YOy5RPEfNU7vHKiErdTd+vgWKiahI8gLHcRgdHeJOHCbjESfd7oytkLwUpbkQ6jyiPpW/V0S0ZWxhOohdpFP2o4XMRgaxkGm7PsezUM75fwgErjplLu34DZwWoMpDdHBhAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Storage vs Database"
+        title=""
+        src="/static/50f1eda8e67b3726642144902dabfcad/fb8a0/storage_database.png"
+        srcset="/static/50f1eda8e67b3726642144902dabfcad/1a291/storage_database.png 148w,
+/static/50f1eda8e67b3726642144902dabfcad/2bc4a/storage_database.png 295w,
+/static/50f1eda8e67b3726642144902dabfcad/fb8a0/storage_database.png 590w,
+/static/50f1eda8e67b3726642144902dabfcad/526de/storage_database.png 885w,
+/static/50f1eda8e67b3726642144902dabfcad/fa2eb/storage_database.png 1180w,
+/static/50f1eda8e67b3726642144902dabfcad/e57a0/storage_database.png 1210w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h1>Azure Storage</h1>
+<p>Azure Storage is a service from Azure which provides storage for various purposes. Azure storage is a cloud storage solutions for modern applications be it be scalibility, durability and availability.</p>
+<ul>
+<li>
+<p>General Purpose Storage</p>
+<ul>
+<li>
+<p>StorageV2(general purpose V2)</p>
+<ul>
+<li>
+<p>Incorporates all features of general purpose V1 and blob storage</p>
+</li>
+<li>
+<p>Delivers lowest per gigabits cost</p>
+</li>
+<li>
+<p>Support Access Tiers</p>
+<ul>
+<li>
+<p>Hot
+Optimised for data that is stored and accessed frequently.</p>
+</li>
+<li>
+<p>Cold
+Optimised for data that is accessed infrequently and stored for atleast 30 days.</p>
+</li>
+<li>
+<p>Archive
+Optimised for data that is that is hardly accessed and stored for atleast 180 days.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 172px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 18.6046511627907%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0UlEQVQY011QSQ6CQBDkyDLMgkAIO5GDGgN4QgmJMTxAPfgxP1xOj8GDh04vVVNT3ZZSChRCCCRJgqZpTJaS5hK2bcP3fd1LRFGEqt0jKyoo3QvB4bouOOdGgzjWWgRBgLquEYYh8jzH7nDEPM+Ypgm361XjG1RZAvZ6Ix3vSMMAj+cDy7Kg7zswxqC0hvXvkETjOEaa5RiGAeM44jT0P4eldpgWpfmg6zqczxe07Rbc/7q0iEixiq6OqWaeZ1bydDY48aSA1BhxaO44jjnJ+u4DyUdnkDF2Cc8AAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="access_tiers"
+        title=""
+        src="/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png"
+        srcset="/static/acaece6e84141972b6fd935d1a86ef00/5f2d1/access_tiers.png 148w,
+/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png 172w"
+        sizes="(max-width: 172px) 100vw, 172px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>StorageV1(general purpose V1)</p>
+<ul>
+<li>All features are same as general purpose V2 but with few difference.</li>
+<li>
+<p>When to use Storage V1</p>
+<ul>
+<li>When you want azure class demplyment model.</li>
+<li>When your applications is transition intensive and uses geo-replication bandwidth.</li>
+</ul>
+</li>
+<li>No zone replication storage (ZRS)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Blob Storage</p>
+<ul>
+<li>A Binary Large OBject (BLOB) is a collection of binary data stored as a single entity in a database management system. Blobs are typically images, audio or other multimedia objects, though sometimes binary executable code is stored as a blob.</li>
+<li>Supports all access tiers.</li>
+</ul>
+</li>
+</ul>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 470px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 27.872340425531917%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAyklEQVQY052RPQ6DMAyFOQEQCISlZaH8Z4SFIQGJBYki7n+Y19hLF4TUDp/yEjvPduIJIZAkCbIsg1KKydRXp2kKIUKE4T3kE8cxvCiKMAwD1nWFtRbLssAYC2uM2xtM0wTd92iaBm3bXkIxrTW6roNHrvM84zxP7PuO4zjc+mZNbNvGcS5irzGuOOWM4wiP2s3znN2rqkJd1yhfJeuiKNzYKXzfRxAEt1AOTcuGdLF3Y1Hbz8eD30O6zuMfob9gQ3KmAyklazL8lw80bKXt0rJ+UAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Azure_storage"
+        title=""
+        src="/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png"
+        srcset="/static/4aa322b44b178ebfe128f4621f656d20/7e0e9/azure_storage.png 148w,
+/static/4aa322b44b178ebfe128f4621f656d20/e2ac6/azure_storage.png 295w,
+/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png 470w"
+        sizes="(max-width: 470px) 100vw, 470px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Replication</em></p>
+<ul>
+<li>Zone Redundant Storage (ZRS)</li>
+</ul>
+<p>Suppose you have 2 zones (i) Delhi (ii) Kolkata. Your data will be replicated to both the datacentre so that if your one zone gets down your storage account will be up from other zone datacentre.</p>
+<ul>
+<li>Locally Redundant Storage (LRS)</li>
+</ul>
+<p>Suppose you have your storage account in a datacentre in Delhi. Now if your server crashes your data will be replicated to Delhi datacentre i.e in which you have actually deployed your storage account.</p>
+<ul>
+<li>Geo Redundant Storage (GRS)</li>
+</ul>
+<p>Suppose you have two regions (i) America (ii) India. Both of the regions have number of zones in it. Your data will be replicated to zones of both the regions.</p>
+<ul>
+<li>Read-access-geo-redundant Storage (RA-GRS)</li>
+</ul>
+<p>Consider the above scenario where you have two regions America and India. Now if your main server which is in New York (a zone in region America) crashes, you can only read data from India Region.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 541px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 22.181146025878%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAApElEQVQY032OSQ6DMAxFOQIoYYjYQUhIKm4AYl2Scv/b/NqW6CBVXTz5O3aeXCilMI4jrLVSGTdNVC2c84TDPM8wxqCuazRNI/Uzd10nlGWJ4hIG+hRCgPdeBJHyMAxo2xaGlrXW4N1f8IzlIuTGkYQFMUaRLsuCG2WWXZdw/sdL2Pc97seBnLOQUsZ5Pt49zVJK2Pcd67pi27Yv+I1nfERVVXgCQflx0hgZyksAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="replications"
+        title=""
+        src="/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png"
+        srcset="/static/dd90ed29b7538b2012eb1e881ca170a2/88ceb/replications.png 148w,
+/static/dd90ed29b7538b2012eb1e881ca170a2/45f49/replications.png 295w,
+/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png 541w"
+        sizes="(max-width: 541px) 100vw, 541px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h2>Components of Azure Storage</h2>
+<h2>Blob Service</h2>
+<p>File system service where you can upload any file. Same as S3 in Amazon Web Services.
+<em>Containers</em> Here containers are same as folder where you store files.</p>
+<p>There are 3 public access levels</p>
+<ul>
+<li>
+<p>Private
+Files can be accessed by only this owner.</p>
+</li>
+<li>
+<p>Blob
+Files can be accessed by others inside this container.</p>
+</li>
+<li>
+<p>Container
+If there is a folder inside this container that also can be accessed.</p>
+</li>
+</ul>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 574px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 62.89198606271778%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABdUlEQVQ4y5WTy07DMBBFvQWBE9ux82yU9EHVFNoKhNTSwhYJUPkUFvweOz7s4nGTKrSotIsjTxznztwZh3keB/c8+D7B4bnYhxBiy+4zISUh3TtjDNI0RRiGYM+v71i/veDufoE4H6DX7SKJY8QWOhhFEbIsc3EbpaQTVEq5tUnE5oslHldLVONrxFmJsiiQJIkTJDES73Q6iG1Me7TSvjEaRtfUSWiflWWJbq+H4fAKOlDgnDsbjc3dWIh9+w0kyii71sGvso+lSdagbbUss80Mgo0gQfEptIXJPqPJUKkh9cv2jppMh+gwxYdou9oKTiZTO5AxqlGF2WyKfn+APM/dB4dEyR4NYc+ylpfQ4sKqB/YeGUdkqz7GLgls7uSm0pCGklVPSEcr6KSAVBoqCO26saPqvu7S3m9XTYWwh89vzD++kN+uYfIRwuIGMojqP8c/CWdZ8DMIfg5p7xfdfuWyyn8H8hfUBiYE+Zd7/+yp1TXf/AAn10XdVsyzFwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="containers"
+        title=""
+        src="/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png"
+        srcset="/static/72fe2e7918c897dfc9448b3cff80fdad/2689b/container.png 148w,
+/static/72fe2e7918c897dfc9448b3cff80fdad/08022/container.png 295w,
+/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png 574w"
+        sizes="(max-width: 574px) 100vw, 574px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Create a container in blob</em></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">from azure.storage.blob import BlockBlobService
+block_blob_service = BlockBlobService(account_name=&#39;&lt;account_name&gt;&#39;, account_key=&#39;&lt;account_key&gt;&#39;)
+block_blob_service.create_container(&#39;test&#39;)</code></pre></div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/c7f71527c0b71ec19925593bff8f4eeb/cde58/azure_blob_create.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 8.228643216080402%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAeUlEQVQI123LSw6CMBSFYRaijMS2EEBjwWhBakh8L8KB6P5X8HtLGDL4cs49yY2a0w3XXun8g7a7489P6uZCn1resWJXHMit56W2/BYJg2zfeM2wFJJjn/IjomLjyMsjIUelw2R7jKnIjEWnlajRciuRSF/NCHv4+QO9cUBVKll25wAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Blob Create"
+        title=""
+        src="/static/c7f71527c0b71ec19925593bff8f4eeb/fb8a0/azure_blob_create.png"
+        srcset="/static/c7f71527c0b71ec19925593bff8f4eeb/1a291/azure_blob_create.png 148w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/2bc4a/azure_blob_create.png 295w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/fb8a0/azure_blob_create.png 590w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/526de/azure_blob_create.png 885w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/fa2eb/azure_blob_create.png 1180w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/cde58/azure_blob_create.png 1592w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Sending blob in the container</em></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">import os
+local_path = os.path.expanduser(&#39;~/Documents/Resume&#39;)
+file_name = &#39;aman&#39;+&#39;.pdf&#39;
+file_path = os.path.join(local_path, file_name)
+block_blob_service.create_blob_from_path(&#39;&lt;container_name&gt;&#39;, file_name, file_path)</code></pre></div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/522c64bccf6d0f1ded2c428a99f347c3/9bbbd/azure_blob_upload.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 25.472887767969738%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY032QS0/DMBCE80sKlCaxnT6T2LHzcNI2LS1c2gpxQQLUM///OqzdcqkQh0+zK++OZh18pwZHs4Kqn1A3hN2hIvK8xeuDQCkkkszi9DjBeRDh845dib1+3HPP1yDGG80He7NGJTtM5jUWaYPZ4qKhUBiKglAImfT9iPqR10sdkSYsB+fS146g2x7Q746w7R663MCUPXS9haWEHUvRhDNMKWVMw26R3eBM3NtvH7TdMyxR0cmF6X26cWqx4RlOwzEOdKpOlE/I/jC8JWiXL2goXaHXUIQmU6lXyNQS52iK93gOQd/AXRK35Iz/4QcF/KDiB7tA5QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Upload blob ot container"
+        title=""
+        src="/static/522c64bccf6d0f1ded2c428a99f347c3/fb8a0/azure_blob_upload.png"
+        srcset="/static/522c64bccf6d0f1ded2c428a99f347c3/1a291/azure_blob_upload.png 148w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/2bc4a/azure_blob_upload.png 295w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/fb8a0/azure_blob_upload.png 590w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/526de/azure_blob_upload.png 885w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/fa2eb/azure_blob_upload.png 1180w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/9bbbd/azure_blob_upload.png 1586w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Downloading blob from container</em></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">block_blob_service.get_blob_to_path(&#39;&lt;container name&gt;&#39;, &#39;file_name&#39;, &#39;full_path_to_file&#39;)</code></pre></div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/28d661f3e50855bcdb563c1016fe7596/2d89f/azure_blob_download.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 5.932203389830509%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAVklEQVQI12OwtnFf7eLmv9rVPWC1s4vfaje3gNUO7oGrY83tV89QUFs9VUl9dYuM8morA+vVRmaOq62s3VabAGlTEAayXU3sVjdIK622MbRZqaZtvhEAk5kcassx3r0AAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Download Blob"
+        title=""
+        src="/static/28d661f3e50855bcdb563c1016fe7596/fb8a0/azure_blob_download.png"
+        srcset="/static/28d661f3e50855bcdb563c1016fe7596/1a291/azure_blob_download.png 148w,
+/static/28d661f3e50855bcdb563c1016fe7596/2bc4a/azure_blob_download.png 295w,
+/static/28d661f3e50855bcdb563c1016fe7596/fb8a0/azure_blob_download.png 590w,
+/static/28d661f3e50855bcdb563c1016fe7596/526de/azure_blob_download.png 885w,
+/static/28d661f3e50855bcdb563c1016fe7596/fa2eb/azure_blob_download.png 1180w,
+/static/28d661f3e50855bcdb563c1016fe7596/2d89f/azure_blob_download.png 1298w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h2>Queue Service</h2>
+<p>Queue Service is almost same as queue data structure which follows FIFO concept. Suppose we have a image processing website which performs various process. We can store all the processes there and then assign each process to every server.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/3ba5c3930b2973bb4ae88ce162a8db45/aa207/azure_queue.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 8.173784977908689%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAP0lEQVQI12MQFBT8LyQkhBPD5CUlJf+LioqCsYiICJgWFhb+j66fASSAD8MMFRcX/y8lJQXH0tLSYEOR1YAwACysMND3IDPEAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Azure Queue"
+        title=""
+        src="/static/3ba5c3930b2973bb4ae88ce162a8db45/fb8a0/azure_queue.png"
+        srcset="/static/3ba5c3930b2973bb4ae88ce162a8db45/1a291/azure_queue.png 148w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/2bc4a/azure_queue.png 295w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/fb8a0/azure_queue.png 590w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/526de/azure_queue.png 885w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/fa2eb/azure_queue.png 1180w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/aa207/azure_queue.png 1358w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Send the message to Azure Storage Queue</em></p>
+<ul>
+<li>
+<p>Install the azure storage python library</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">pip install azure-storage</code></pre></div>
+</li>
+<li>
+<p>Import the serivces and send the message</p>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">from azure.storage.queue import QueueService
+
+queue_service = QueueService(account_name=&#39;&#39;, account_key=&#39;&#39;)
+queue_service.create_queue(&#39;test&#39;)
+queue_service.put_messages(&#39;test&#39;, &#39;&lt;message&gt;&#39;)</code></pre></div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/006cb77e26c36b8c89eb0107512b7ab7/6a24b/azure_queue_example.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 6.484893146647015%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAPklEQVQI1z2LOQoAUQjF5gqKuIE64P3P+GYpfhHSJFdXIzMxM7hfzAzufszMIKKf7j7N9+wuIgKqiqqCiOAB/zwZ2Qb675cAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Example"
+        title=""
+        src="/static/006cb77e26c36b8c89eb0107512b7ab7/fb8a0/azure_queue_example.png"
+        srcset="/static/006cb77e26c36b8c89eb0107512b7ab7/1a291/azure_queue_example.png 148w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/2bc4a/azure_queue_example.png 295w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/fb8a0/azure_queue_example.png 590w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/526de/azure_queue_example.png 885w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/fa2eb/azure_queue_example.png 1180w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/6a24b/azure_queue_example.png 1357w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p><em>Peek message in Azure Storage Queue</em></p>
+<p>You can peek the message in front of the queue without deleting the message in front of the queue.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">messages = queue_service.peek_messages(&#39;&lt;queue_name&gt;&#39;)
+for msg in message:
+    print(msg.content)</code></pre></div>
+<p><em>DeQueue Messages from Azure Storage Queue</em></p>
+<p>Dequeuing the message from the Azure Storage Queue will automatically delete the message from the Queue. Let’s have a quick look on it.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">messages = queue_service.get_messages(&#39;&lt;queue_name&gt;&#39;)
+for msg in messages:
+    print(msg.content)
+    queue_service.delete_message(&#39;&lt;queue_name&gt;&#39;, msg.id,msg.pop_receipt)</code></pre></div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/3a947b45d5a9f2be0e65c41d7feb0dc1/a6b5f/azure_storage_queue_delete.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 19.543147208121827%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQY03WQ2Q6CMBRE+RjXyE4LpYAgi8Yl4IuJ//8jY+caH32Y3GZ6M3Naz1QTuv4huj9eGM8LxmlB6Xxd9CjthKIckOkOUVJjvc2w2am/8g6BwXavYeyIYZzROzE8zY4I4wpRXEtQEFXwQ4tUtYjTRpS4HU7eszBOGng0gshC5ScUZpBJGUeWmx62vqByUvokxKRl+c8/drdvGINdude0V8zPt9Aod5HpVuhSxfZaPIoeifywlF2eScY9vnK1SeQ7Pp/JhBNAG/79AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Azure Storage Delete"
+        title=""
+        src="/static/3a947b45d5a9f2be0e65c41d7feb0dc1/fb8a0/azure_storage_queue_delete.png"
+        srcset="/static/3a947b45d5a9f2be0e65c41d7feb0dc1/1a291/azure_storage_queue_delete.png 148w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/2bc4a/azure_storage_queue_delete.png 295w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/fb8a0/azure_storage_queue_delete.png 590w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/a6b5f/azure_storage_queue_delete.png 788w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h2>File System Service</h2>
+<p>Almost same as blob service with a small differene that you can treat as an extended drive of your system. To achieve this move to File Service section in Azure Storage account and click on the <code class="language-text">connect</code> option on the top. Use the commands with the preference of your system to connect to Azure file system which will appear on the right hand side of your screen.</p>
+<!-- ![Azure file service](./img/azure_file_service.png) -->
+<h2>Tables Service</h2>
+<p>Azure table storage service stores a large amount of structured data. This service is a NoSql datastore. Azure table is stored is ideal for storing structured, non relational data.</p>
+<ul>
+<li>
+<p>Install python package for Azure CosmosDB table</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">pip install azure-cosmosdb-table</code></pre></div>
+</li>
+<li>
+<p>import table service and entity class</p>
+</li>
+</ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">from azure.cosmosdb.table.tableservice import TableService
+from azure.cosmosdb.table.model import Entity</code></pre></div>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/550b9847858aed69d611b9cf60d97ae6/669ef/t1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 23.801916932907346%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABBUlEQVQY0z2QWVLDMBBEfRhISFJUgR3Jjh0vWiI7XsMa4JP736GZmUrx0SVppHnTrSjLT7BuRGNHFGUr63n4gPMTXLigbnr4sMD6GYbuajOgolrbvSDNPcq6p1ovvSq1iBgQ2gvcaYEhsHEThvGTgDNC9yrDehqQHwMKUQtNjWXV4Skusd4obHbpv6Kuf8OR6J7cMDhRRsB5EZAevIAYXNZn7B4z3K0SgdyvEzxsNdUOIq6xIn7IkTiGJXeBogzTVSJPyzfFHMBDPSVgjfOV1plq7/QNk/RlNJhhPCD6+vmFziySfY3npCKHjThT2sif7G/nmO55rzMnUZW2iOk9g1Y3dwz8A5VLrTjl4GHGAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="table"
+        title=""
+        src="/static/550b9847858aed69d611b9cf60d97ae6/fb8a0/t1.png"
+        srcset="/static/550b9847858aed69d611b9cf60d97ae6/1a291/t1.png 148w,
+/static/550b9847858aed69d611b9cf60d97ae6/2bc4a/t1.png 295w,
+/static/550b9847858aed69d611b9cf60d97ae6/fb8a0/t1.png 590w,
+/static/550b9847858aed69d611b9cf60d97ae6/669ef/t1.png 626w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>The entity object can be of type Entity. Every entity must include PartitionKey and RowKey properties.These are the unique itentifiers of your entity and together they form a primary key.
+Entities having same PartitionKey are stored on the same node. RowKey are used as an unique identifiers within a partition. </p>
+<p>Now, add the entity object with insert_entity method.
+
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/1b86b1f8d50f2c7cc90cbecda117795c/07067/table3.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 7.27124183006536%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAO0lEQVQI12NwcPL5D8Mubv5w2tHZ97+Nncd/AyO7/3oG1v919a2BbNv/+oY2YL6OniVYDIT1DSHiIDYAY44hn6ROHj8AAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="add table"
+        title=""
+        src="/static/1b86b1f8d50f2c7cc90cbecda117795c/fb8a0/table3.png"
+        srcset="/static/1b86b1f8d50f2c7cc90cbecda117795c/1a291/table3.png 148w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/2bc4a/table3.png 295w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/fb8a0/table3.png 590w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/526de/table3.png 885w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/fa2eb/table3.png 1180w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/07067/table3.png 1224w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>In this way you can simple use the Azure Cosmosdb.</p>
+<p>Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.</p></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHhUzaPEB//xAAWEAEBAQAAAAAAAAAAAAAAAAARACD/2gAIAQEAAQUCknH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAEAAwEAAAAAAAAAAAAAAAABABAhEf/aAAgBAQABPyExgON7HdDX/9oADAMBAAIAAwAAABDbL//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQEAAgMAAAAAAAAAAAAAAAEAESEQMVH/2gAIAQEAAT8QeyOBsMxPBPZXPd//2Q==" alt="nightwarrior-xxx" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s;border-radius:50%"/><noscript><picture><source srcSet="/static/ed62e137f81db4b4b2cb5e7cb5963506/d2d31/profile.jpg 1x,
+/static/ed62e137f81db4b4b2cb5e7cb5963506/0b804/profile.jpg 1.5x,
+/static/ed62e137f81db4b4b2cb5e7cb5963506/753c3/profile.jpg 2x,
+/static/ed62e137f81db4b4b2cb5e7cb5963506/31ca8/profile.jpg 3x" /><img width="50" height="50" src="/static/ed62e137f81db4b4b2cb5e7cb5963506/d2d31/profile.jpg" alt="nightwarrior-xxx" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>nightwarrior-xxx</strong> who lives and works in a small town full of Darkness building problem solving stuff.<!-- --> <a href="https://twitter.com/nightwarrior_xx">You should follow him on Twitter</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/ConnectingToTor/">← <!-- -->Connecting to Tor</a></li><li><a rel="next" href="/AzureDevOps/">Azure DevOps<!-- --> →</a></li></ul><footer>© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto', {});
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"azure-strorage-76d","path":"/AzureStrorage/"};window.dataPath="902/path---azure-strorage-76-d-111-OvMrWJEUl15E4iWQmYM7kJRhU";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.bddaef654c66ded1434d.css","/app-fba13a307b666c6bfc05.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-bb61e080472a9f33f38e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-399e0ba4c912a4b13c59.js"],"component---src-pages-404-js":["/component---src-pages-404-js-e9238fdf947659447f1e.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc45ac6f10c75b95aa4a.js"],"pages-manifest":["/pages-manifest-200d5c1730ea753f4c34.js"]};/*]]>*/</script><script src="/webpack-runtime-a0e726fbc29d1fc95764.js" async=""></script><script src="/app-fba13a307b666c6bfc05.js" async=""></script><script src="/0-2159707fafb24590a999.js" async=""></script><script src="/component---src-templates-blog-post-js-399e0ba4c912a4b13c59.js" async=""></script></body></html>
