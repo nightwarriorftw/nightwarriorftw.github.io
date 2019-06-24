@@ -3,7 +3,7 @@ module.exports = {
     title: `Learn to talk to computers`,
     author: `nightwarrior-xxx`,
     description: `Stop Talking | Start Programming`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://nightwarrior-xxx.github.io/`,
     social: {
       twitter: `nightwarrior_xx`,
     },
