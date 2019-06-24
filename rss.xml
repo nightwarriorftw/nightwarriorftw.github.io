@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 15:04:54 GMT</lastBuildDate><item><title><![CDATA[Azure DevOps]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io//AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 15:07:44 GMT</lastBuildDate><item><title><![CDATA[Azure DevOps]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io//AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
 &lt;p&gt;Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications.&lt;/p&gt;
 &lt;h3&gt;What is DevOps ?&lt;/h3&gt;
 &lt;p&gt;DevOps is a integration of Development and Operations teams in order to improve collaboration and productivity. This is done by automating workflows and productivity.
@@ -1053,33 +1053,72 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
 &lt;p&gt;Another option that Tor provides so that client can connect to the Tor network is &lt;em&gt;Providing a bridge that I know&lt;/em&gt;. A client can manually add a bridge to connect to Tor network. But make sure to add a bridge that you trust. Clients can get these bridges from
 &lt;a href=&quot;https://bridges.torproject.org/options&quot;&gt;Tor Bridge&lt;/a&gt; where Tor has provide another facility of obtaining bridges. Select the type of bridge you want, verify captcha and Tor will provide you a bridge which you can use to connect to Tor network.&lt;/p&gt;
 &lt;p&gt;Tor is open source and provide these pluggable transport to achieve anonymous communication for free. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Adding powerline to your Shell]]></title><description><![CDATA[This is how your current terminal looks like 
- 
-Now with some awesome tricks you can change it too
+ Now with some awesome tricks you can change it too
  Step 1 Install   and  .
 For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Powerline/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Powerline/</guid><pubDate>Thu, 21 Mar 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;This is how your current terminal looks like
 
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
   
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 80.24502297090352%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAABFklEQVQ4y+WTzU7CUBCFp6zUdIfpQkiksey7ktcygiX6DrKiWlpt2t5W+gu6MzwbzrE/aIIrQXcsvszMSebMTeYOeb7L0VxAhD4HwkMkBKIXgXyRYrHMUSwypFmM5WtR13ESIc3jWmuYI8sTXr4VeHadD0rTBEIE7HkuTHMKu7BgWlM8OTas2SMs6wGTyT0cZ1bntm0hDAMEgV/2NWxyXq3eQbqusyzLaJ+2+eToGKQQiHaGq3g9vGJSVXVnA0mStmi1WrVujEcgra/VxZdIEu01oIo342FpqF1siftwwIYj479faBzoUvoabz42/7yA31L1NoYjpl7v/PsW/wjXSxkMLllRFHS7He50zrAXZW/lcXs3Xn8C8SyrMvkcCN8AAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;terminal without powerline&quot; title=&quot;&quot; src=&quot;/static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png&quot; srcset=&quot;/static/895ab6686d4a312c27ffff0f702e3644/1a291/terminal-without-powerline.png 148w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 80.24502297090352%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAABFklEQVQ4y+WTzU7CUBCFp6zUdIfpQkiksey7ktcygiX6DrKiWlpt2t5W+gu6MzwbzrE/aIIrQXcsvszMSebMTeYOeb7L0VxAhD4HwkMkBKIXgXyRYrHMUSwypFmM5WtR13ESIc3jWmuYI8sTXr4VeHadD0rTBEIE7HkuTHMKu7BgWlM8OTas2SMs6wGTyT0cZ1bntm0hDAMEgV/2NWxyXq3eQbqusyzLaJ+2+eToGKQQiHaGq3g9vGJSVXVnA0mStmi1WrVujEcgra/VxZdIEu01oIo342FpqF1siftwwIYj479faBzoUvoabz42/7yA31L1NoYjpl7v/PsW/wjXSxkMLllRFHS7He50zrAXZW/lcXs3Xn8C8SyrMvkcCN8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;terminal_without_powerline&quot;
+        title=&quot;&quot;
+        src=&quot;/static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png&quot;
+        srcset=&quot;/static/895ab6686d4a312c27ffff0f702e3644/1a291/terminal-without-powerline.png 148w,
 /static/895ab6686d4a312c27ffff0f702e3644/2bc4a/terminal-without-powerline.png 295w,
 /static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png 590w,
-/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png 653w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png 653w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    
-Now with some awesome tricks you can change it too
+    &lt;/p&gt;
+&lt;p&gt;Now with some awesome tricks you can change it too
 
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
   
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 474px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 64.76793248945147%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABzqhNsmN//8QAGBABAQEBAQAAAAAAAAAAAAAAAQARAhL/2gAIAQEAAQUCdlhkyOdvOX//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAAQMQD/2gAIAQEABj8C1K//xAAZEAADAQEBAAAAAAAAAAAAAAAAARExIUH/2gAIAQEAAT8hT2nCGNRjWjuqKF0edP/aAAwDAQACAAMAAAAQ/A//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8QGMv/xAAVEQEBAAAAAAAAAAAAAAAAAAARAP/aAAgBAgEBPxAIv//EABwQAQEBAAEFAAAAAAAAAAAAAAERACExQVFhgf/aAAgBAQABPxCOhARDPw8gXUinnGQlZPl0osvrAuV79N//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;terminal with powerline&quot; title=&quot;&quot; src=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot; srcset=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/4b016/terminal-with-powerline.jpeg 148w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 474px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 64.76793248945147%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABzqhNsmN//8QAGBABAQEBAQAAAAAAAAAAAAAAAQARAhL/2gAIAQEAAQUCdlhkyOdvOX//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAEBAQAAAAAAAAAAAAAAAAAQMQD/2gAIAQEABj8C1K//xAAZEAADAQEBAAAAAAAAAAAAAAAAARExIUH/2gAIAQEAAT8hT2nCGNRjWjuqKF0edP/aAAwDAQACAAMAAAAQ/A//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8QGMv/xAAVEQEBAAAAAAAAAAAAAAAAAAARAP/aAAgBAgEBPxAIv//EABwQAQEBAAEFAAAAAAAAAAAAAAERACExQVFhgf/aAAgBAQABPxCOhARDPw8gXUinnGQlZPl0osvrAuV79N//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Terminal with powerline&quot;
+        title=&quot;&quot;
+        src=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot;
+        srcset=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/4b016/terminal-with-powerline.jpeg 148w,
 /static/19e56b843f78e3f7078d0e909c0e87c4/0ee69/terminal-with-powerline.jpeg 295w,
-/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg 474w&quot; sizes=&quot;(max-width: 474px) 100vw, 474px&quot;&gt;
+/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg 474w&quot;
+        sizes=&quot;(max-width: 474px) 100vw, 474px&quot;
+      /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
