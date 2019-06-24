@@ -1,4 +1,520 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 25 May 2019 14:43:53 GMT</lastBuildDate><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 07:37:33 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Azure Strorage/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Azure Strorage/</guid><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
+&lt;p&gt;Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also don’t want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
+After processing those all data should be now store somewhere else so you need a storage for that also. You don’t use a database for storing because you can store object in database.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/eaae445f65bec1086674e9e3f93f4fe5/87045/why_storage.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.32409739714525%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACV0lEQVQoz1WTS08TYRSG5/e4cy/xJ7gw0YUbXWg0cYMxMW6MiQv8BS50RZS4KMQLiQahZgAJpQSIBHoRaVNK76UznZnOvfN4ZmiLfMmb72vPmfe856ZYtk1bM9DMAT3DShC/wzBkKBjfyTvwBcHF7xECQXz2Tloopu2wtFtg/fBYUGIxe8BmoUx/YKNZNroV3xJs4KG7EaY/pGc5E1tiN2MRJvrARfF8P2GPooj/TxzTD86ja3ZArlRmY0tleXWTYrWJ5QUEsWLxM+r7VNbfYTb2LwjHZ+hLCXLLGKd7cRj5I8SV16eFWZ7fucLNa1NCujHxjxgyrK3hLd4lrCyjuEIYqwvkDofi4Bu4K9P4mRnGmq0ADgt/mfuQ4vP8PKVqA8meyNNwtBKubaB3T/A9GyUYSgT5qKvr6P0uvtXAqmYZNA8gMIjsptQtIJtVefv6NtP3H7KxvYPv6wRmFcd1cRwv4YgFKNpZl/72LPbOG3qH36VmQWKMa2NZJlq7Qq2VZ0VN8+rZE15MP+XnrzT9s9+Jes8PRZk7ootQDvJF6utLaOkFdlQVJzg3EEk3exrtdoe24VIqF/mx+I7U3EfKpw1sd0BkVWjVS3S6PclCyEWJkiudkC8csb+qsraXl1Quup5Qj5qSSr3n8a2r3Ji6zsqoKUPJBrdOpVrnwUyaL2oRxbAscn+O2c0d0Wx1LnV83BTd8SnXWqTVDJnMFtV2D8sPJ36ntSb3Hr3k67dVFFuKGsmsRRItTHB5A+KNsKToPRn0jgxvNxlyB9vzJ9sSyPaYRh9PavkPVOosqNVMxEwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Why_storage&quot;
+        title=&quot;&quot;
+        src=&quot;/static/eaae445f65bec1086674e9e3f93f4fe5/fb8a0/why_storage.png&quot;
+        srcset=&quot;/static/eaae445f65bec1086674e9e3f93f4fe5/1a291/why_storage.png 148w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/2bc4a/why_storage.png 295w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/fb8a0/why_storage.png 590w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/526de/why_storage.png 885w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/fa2eb/why_storage.png 1180w,
+/static/eaae445f65bec1086674e9e3f93f4fe5/87045/why_storage.png 1191w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;Storage VS DataBase&lt;/h1&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/50f1eda8e67b3726642144902dabfcad/e57a0/storage_database.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.38842975206612%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB6UlEQVQoz1WSy2oUQRSG50l8B5/EbVa6c+NewQdwZYKanQSEgJKVIAF1IaKiURzFC1FJZnKZ6enM9LWmp9PX6urP0zUaY8FP1Tl16j//Oad6xrTousDbe8vCP6BIfYwxNE1jQWtwk5ykqJALe1fUDV/GCTvDGG9R2pi/8T0D1InD/rPbDF5vMtl5QFNnNJKolcd5rdkNU0uktSSQdTBV3Ljf59q9Pk/eDa1PnydskiPa51dh+zLNq+tCmKOFUCSxpzKGi2L5SOsl4eiQh+tX2Lq7wssXj6yvkTtL2ClpqhT9fQP9cRU9eCzqDLUtt+XmrsOF7Q+sDaa2NNGNr1LWNza5tXaH919/niX7Rygyu2LOIL66aW3gyqchvdUtLr75IVYrpS/LPr9as+x115aeqRJMOReo5V51SKgLJc1N+TXPuNQf8tSNyPKKuENWEp8Wf1CisoowLSil3z3PmxGHHmEwI/CmeDMX3ztBqQiTh6g857MMpSpKXD9k5vkEUczUD5jK2QtCQrEX8guUJOodj08YOy5RPEfNU7vHKiErdTd+vgWKiahI8gLHcRgdHeJOHCbjESfd7oytkLwUpbkQ6jyiPpW/V0S0ZWxhOohdpFP2o4XMRgaxkGm7PsezUM75fwgErjplLu34DZwWoMpDdHBhAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Storage vs Database&quot;
+        title=&quot;&quot;
+        src=&quot;/static/50f1eda8e67b3726642144902dabfcad/fb8a0/storage_database.png&quot;
+        srcset=&quot;/static/50f1eda8e67b3726642144902dabfcad/1a291/storage_database.png 148w,
+/static/50f1eda8e67b3726642144902dabfcad/2bc4a/storage_database.png 295w,
+/static/50f1eda8e67b3726642144902dabfcad/fb8a0/storage_database.png 590w,
+/static/50f1eda8e67b3726642144902dabfcad/526de/storage_database.png 885w,
+/static/50f1eda8e67b3726642144902dabfcad/fa2eb/storage_database.png 1180w,
+/static/50f1eda8e67b3726642144902dabfcad/e57a0/storage_database.png 1210w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h1&gt;Azure Storage&lt;/h1&gt;
+&lt;p&gt;Azure Storage is a service from Azure which provides storage for various purposes. Azure storage is a cloud storage solutions for modern applications be it be scalibility, durability and availability.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;General Purpose Storage&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;StorageV2(general purpose V2)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Incorporates all features of general purpose V1 and blob storage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delivers lowest per gigabits cost&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support Access Tiers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hot
+Optimised for data that is stored and accessed frequently.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cold
+Optimised for data that is accessed infrequently and stored for atleast 30 days.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Archive
+Optimised for data that is that is hardly accessed and stored for atleast 180 days.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 172px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 18.6046511627907%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0UlEQVQY011QSQ6CQBDkyDLMgkAIO5GDGgN4QgmJMTxAPfgxP1xOj8GDh04vVVNT3ZZSChRCCCRJgqZpTJaS5hK2bcP3fd1LRFGEqt0jKyoo3QvB4bouOOdGgzjWWgRBgLquEYYh8jzH7nDEPM+Ypgm361XjG1RZAvZ6Ix3vSMMAj+cDy7Kg7zswxqC0hvXvkETjOEaa5RiGAeM44jT0P4eldpgWpfmg6zqczxe07Rbc/7q0iEixiq6OqWaeZ1bydDY48aSA1BhxaO44jjnJ+u4DyUdnkDF2Cc8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;access_tiers&quot;
+        title=&quot;&quot;
+        src=&quot;/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png&quot;
+        srcset=&quot;/static/acaece6e84141972b6fd935d1a86ef00/5f2d1/access_tiers.png 148w,
+/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png 172w&quot;
+        sizes=&quot;(max-width: 172px) 100vw, 172px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;StorageV1(general purpose V1)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All features are same as general purpose V2 but with few difference.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When to use Storage V1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want azure class demplyment model.&lt;/li&gt;
+&lt;li&gt;When your applications is transition intensive and uses geo-replication bandwidth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;No zone replication storage (ZRS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blob Storage&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Binary Large OBject (BLOB) is a collection of binary data stored as a single entity in a database management system. Blobs are typically images, audio or other multimedia objects, though sometimes binary executable code is stored as a blob.&lt;/li&gt;
+&lt;li&gt;Supports all access tiers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 470px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 27.872340425531917%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAyklEQVQY052RPQ6DMAyFOQEQCISlZaH8Z4SFIQGJBYki7n+Y19hLF4TUDp/yEjvPduIJIZAkCbIsg1KKydRXp2kKIUKE4T3kE8cxvCiKMAwD1nWFtRbLssAYC2uM2xtM0wTd92iaBm3bXkIxrTW6roNHrvM84zxP7PuO4zjc+mZNbNvGcS5irzGuOOWM4wiP2s3znN2rqkJd1yhfJeuiKNzYKXzfRxAEt1AOTcuGdLF3Y1Hbz8eD30O6zuMfob9gQ3KmAyklazL8lw80bKXt0rJ+UAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure_storage&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png&quot;
+        srcset=&quot;/static/4aa322b44b178ebfe128f4621f656d20/7e0e9/azure_storage.png 148w,
+/static/4aa322b44b178ebfe128f4621f656d20/e2ac6/azure_storage.png 295w,
+/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png 470w&quot;
+        sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Replication&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zone Redundant Storage (ZRS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suppose you have 2 zones (i) Delhi (ii) Kolkata. Your data will be replicated to both the datacentre so that if your one zone gets down your storage account will be up from other zone datacentre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Locally Redundant Storage (LRS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suppose you have your storage account in a datacentre in Delhi. Now if your server crashes your data will be replicated to Delhi datacentre i.e in which you have actually deployed your storage account.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Geo Redundant Storage (GRS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suppose you have two regions (i) America (ii) India. Both of the regions have number of zones in it. Your data will be replicated to zones of both the regions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read-access-geo-redundant Storage (RA-GRS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Consider the above scenario where you have two regions America and India. Now if your main server which is in New York (a zone in region America) crashes, you can only read data from India Region.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 541px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 22.181146025878%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAApElEQVQY032OSQ6DMAxFOQIoYYjYQUhIKm4AYl2Scv/b/NqW6CBVXTz5O3aeXCilMI4jrLVSGTdNVC2c84TDPM8wxqCuazRNI/Uzd10nlGWJ4hIG+hRCgPdeBJHyMAxo2xaGlrXW4N1f8IzlIuTGkYQFMUaRLsuCG2WWXZdw/sdL2Pc97seBnLOQUsZ5Pt49zVJK2Pcd67pi27Yv+I1nfERVVXgCQflx0hgZyksAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;replications&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png&quot;
+        srcset=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/88ceb/replications.png 148w,
+/static/dd90ed29b7538b2012eb1e881ca170a2/45f49/replications.png 295w,
+/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png 541w&quot;
+        sizes=&quot;(max-width: 541px) 100vw, 541px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Components of Azure Storage&lt;/h2&gt;
+&lt;h2&gt;Blob Service&lt;/h2&gt;
+&lt;p&gt;File system service where you can upload any file. Same as S3 in Amazon Web Services.
+&lt;em&gt;Containers&lt;/em&gt; Here containers are same as folder where you store files.&lt;/p&gt;
+&lt;p&gt;There are 3 public access levels&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Private
+Files can be accessed by only this owner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blob
+Files can be accessed by others inside this container.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Container
+If there is a folder inside this container that also can be accessed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 574px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.89198606271778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABdUlEQVQ4y5WTy07DMBBFvQWBE9ux82yU9EHVFNoKhNTSwhYJUPkUFvweOz7s4nGTKrSotIsjTxznztwZh3keB/c8+D7B4bnYhxBiy+4zISUh3TtjDNI0RRiGYM+v71i/veDufoE4H6DX7SKJY8QWOhhFEbIsc3EbpaQTVEq5tUnE5oslHldLVONrxFmJsiiQJIkTJDES73Q6iG1Me7TSvjEaRtfUSWiflWWJbq+H4fAKOlDgnDsbjc3dWIh9+w0kyii71sGvso+lSdagbbUss80Mgo0gQfEptIXJPqPJUKkh9cv2jppMh+gwxYdou9oKTiZTO5AxqlGF2WyKfn+APM/dB4dEyR4NYc+ylpfQ4sKqB/YeGUdkqz7GLgls7uSm0pCGklVPSEcr6KSAVBoqCO26saPqvu7S3m9XTYWwh89vzD++kN+uYfIRwuIGMojqP8c/CWdZ8DMIfg5p7xfdfuWyyn8H8hfUBiYE+Zd7/+yp1TXf/AAn10XdVsyzFwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;containers&quot;
+        title=&quot;&quot;
+        src=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png&quot;
+        srcset=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/2689b/container.png 148w,
+/static/72fe2e7918c897dfc9448b3cff80fdad/08022/container.png 295w,
+/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png 574w&quot;
+        sizes=&quot;(max-width: 574px) 100vw, 574px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Create a container in blob&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.storage.blob import BlockBlobService
+block_blob_service = BlockBlobService(account_name=&amp;#39;&amp;lt;account_name&amp;gt;&amp;#39;, account_key=&amp;#39;&amp;lt;account_key&amp;gt;&amp;#39;)
+block_blob_service.create_container(&amp;#39;test&amp;#39;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/cde58/azure_blob_create.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 8.228643216080402%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAeUlEQVQI123LSw6CMBSFYRaijMS2EEBjwWhBakh8L8KB6P5X8HtLGDL4cs49yY2a0w3XXun8g7a7489P6uZCn1resWJXHMit56W2/BYJg2zfeM2wFJJjn/IjomLjyMsjIUelw2R7jKnIjEWnlajRciuRSF/NCHv4+QO9cUBVKll25wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Blob Create&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/fb8a0/azure_blob_create.png&quot;
+        srcset=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/1a291/azure_blob_create.png 148w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/2bc4a/azure_blob_create.png 295w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/fb8a0/azure_blob_create.png 590w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/526de/azure_blob_create.png 885w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/fa2eb/azure_blob_create.png 1180w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/cde58/azure_blob_create.png 1592w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sending blob in the container&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import os
+local_path = os.path.expanduser(&amp;#39;~/Documents/Resume&amp;#39;)
+file_name = &amp;#39;aman&amp;#39;+&amp;#39;.pdf&amp;#39;
+file_path = os.path.join(local_path, file_name)
+block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;&amp;#39;, file_name, file_path)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/9bbbd/azure_blob_upload.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 25.472887767969738%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8UlEQVQY032QS0/DMBCE80sKlCaxnT6T2LHzcNI2LS1c2gpxQQLUM///OqzdcqkQh0+zK++OZh18pwZHs4Kqn1A3hN2hIvK8xeuDQCkkkszi9DjBeRDh845dib1+3HPP1yDGG80He7NGJTtM5jUWaYPZ4qKhUBiKglAImfT9iPqR10sdkSYsB+fS146g2x7Q746w7R663MCUPXS9haWEHUvRhDNMKWVMw26R3eBM3NtvH7TdMyxR0cmF6X26cWqx4RlOwzEOdKpOlE/I/jC8JWiXL2goXaHXUIQmU6lXyNQS52iK93gOQd/AXRK35Iz/4QcF/KDiB7tA5QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Upload blob ot container&quot;
+        title=&quot;&quot;
+        src=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/fb8a0/azure_blob_upload.png&quot;
+        srcset=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/1a291/azure_blob_upload.png 148w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/2bc4a/azure_blob_upload.png 295w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/fb8a0/azure_blob_upload.png 590w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/526de/azure_blob_upload.png 885w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/fa2eb/azure_blob_upload.png 1180w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/9bbbd/azure_blob_upload.png 1586w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Downloading blob from container&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;block_blob_service.get_blob_to_path(&amp;#39;&amp;lt;container name&amp;gt;&amp;#39;, &amp;#39;file_name&amp;#39;, &amp;#39;full_path_to_file&amp;#39;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/28d661f3e50855bcdb563c1016fe7596/2d89f/azure_blob_download.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 5.932203389830509%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAVklEQVQI12OwtnFf7eLmv9rVPWC1s4vfaje3gNUO7oGrY83tV89QUFs9VUl9dYuM8morA+vVRmaOq62s3VabAGlTEAayXU3sVjdIK622MbRZqaZtvhEAk5kcassx3r0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Download Blob&quot;
+        title=&quot;&quot;
+        src=&quot;/static/28d661f3e50855bcdb563c1016fe7596/fb8a0/azure_blob_download.png&quot;
+        srcset=&quot;/static/28d661f3e50855bcdb563c1016fe7596/1a291/azure_blob_download.png 148w,
+/static/28d661f3e50855bcdb563c1016fe7596/2bc4a/azure_blob_download.png 295w,
+/static/28d661f3e50855bcdb563c1016fe7596/fb8a0/azure_blob_download.png 590w,
+/static/28d661f3e50855bcdb563c1016fe7596/526de/azure_blob_download.png 885w,
+/static/28d661f3e50855bcdb563c1016fe7596/fa2eb/azure_blob_download.png 1180w,
+/static/28d661f3e50855bcdb563c1016fe7596/2d89f/azure_blob_download.png 1298w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Queue Service&lt;/h2&gt;
+&lt;p&gt;Queue Service is almost same as queue data structure which follows FIFO concept. Suppose we have a image processing website which performs various process. We can store all the processes there and then assign each process to every server.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/aa207/azure_queue.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 8.173784977908689%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAP0lEQVQI12MQFBT8LyQkhBPD5CUlJf+LioqCsYiICJgWFhb+j66fASSAD8MMFRcX/y8lJQXH0tLSYEOR1YAwACysMND3IDPEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Queue&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/fb8a0/azure_queue.png&quot;
+        srcset=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/1a291/azure_queue.png 148w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/2bc4a/azure_queue.png 295w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/fb8a0/azure_queue.png 590w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/526de/azure_queue.png 885w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/fa2eb/azure_queue.png 1180w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/aa207/azure_queue.png 1358w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Send the message to Azure Storage Queue&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install the azure storage python library&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install azure-storage&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Import the serivces and send the message&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.storage.queue import QueueService&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;queue&lt;em&gt;service = QueueService(account&lt;/em&gt;name=”, account&lt;em&gt;key=”)
+queue&lt;/em&gt;service.create&lt;em&gt;queue(‘test’)
+queue&lt;/em&gt;service.put_messages(‘test’, ’&lt;message&gt;‘)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Example](./img/azure_queue_example.png)
+
+*Peek message in Azure Storage Queue*
+
+You can peek the message in front of the queue without deleting the message in front of the queue.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;messages = queue&lt;em&gt;service.peek&lt;/em&gt;messages(‘&amp;#x3C;queue_name&gt;’)
+for msg in message:
+print(msg.content)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;*DeQueue Messages from Azure Storage Queue*
+
+Dequeuing the message from the Azure Storage Queue will automatically delete the message from the Queue. Let&amp;#39;s have a quick look on it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;messages = queue&lt;em&gt;service.get&lt;/em&gt;messages(‘&amp;#x3C;queue&lt;em&gt;name&gt;’)
+for msg in messages:
+print(msg.content)
+queue&lt;/em&gt;service.delete&lt;em&gt;message(‘&amp;#x3C;queue&lt;/em&gt;name&gt;’, msg.id,msg.pop_receipt)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Azure Storage Delete](./img/azure_storage_queue_delete.png)
+
+
+## File System Service 
+
+Almost same as blob service with a small differene that you can treat as an extended drive of your system. To achieve this move to File Service section in Azure Storage account and click on the ```connect``` option on the top. Use the commands with the preference of your system to connect to Azure file system which will appear on the right hand side of your screen.
+
+&amp;lt;!-- ![Azure file service](./img/azure_file_service.png) --&amp;gt;
+
+## Tables Service
+
+Azure table storage service stores a large amount of structured data. This service is a NoSql datastore. Azure table is stored is ideal for storing structured, non relational data.
+
+- Install python package for Azure CosmosDB table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;pip install azure-cosmosdb-table&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- import table service and entity class&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;from azure.cosmosdb.table.tableservice import TableService
+from azure.cosmosdb.table.model import Entity&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![table](./img/t1.png)
+
+The entity object can be of type Entity. Every entity must include PartitionKey and RowKey properties.These are the unique itentifiers of your entity and together they form a primary key.
+Entities having same PartitionKey are stored on the same node. RowKey are used as an unique identifiers within a partition. 
+
+Now, add the entity object with insert_entity method.
+![add table](./img/table3.png)
+
+In this way you can simple use the Azure Cosmosdb.
+
+Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
 &lt;h2&gt;Bridging in Tor&lt;/h2&gt;
 &lt;p&gt;Bridges are also known as &lt;em&gt;Tor relays&lt;/em&gt;. Since there is no complete public list of Tor bridges the number of bridges that Tor runs are uncountable. That means if your ISP is tracking you and trying to filter your connections, he can’t block all the Tor relays. In case if you are blocked from getting connected to Tor network, this is where Tor bridges comes into play. Tor bridges not only helps you to connect to Tor network but it keeps your privacy safe and secure. Do try connecting to Tor network without using bridges in case it worked then it’s well and good.&lt;/p&gt;
 &lt;p&gt;Over the last few years ISPs have found ways of blocking client from connecting to Tor network. They have detectors which stops the flow of traffic when they detect Tor traffic. To conquer this problem Tor has introduced a concept of &lt;strong&gt;pluggable transport&lt;/strong&gt; which manipulates the traffic between client and first hop of Tor relay thus nullfying the chances of blocking you from Tor network.
