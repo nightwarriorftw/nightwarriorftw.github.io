@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 07:44:25 GMT</lastBuildDate><item><title><![CDATA[Azure Storage]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Azure Strorage/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Azure Strorage/</guid><pubDate>Mon, 24 Jun 2019 13:10:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 08:01:18 GMT</lastBuildDate><item><title><![CDATA[Azure Storage]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Azure Strorage/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Azure Strorage/</guid><pubDate>Mon, 24 Jun 2019 13:10:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
 &lt;p&gt;Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also don’t want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
 After processing those all data should be now store somewhere else so you need a storage for that also. You don’t use a database for storing because you can store object in database.&lt;/p&gt;
 &lt;p&gt;
@@ -465,56 +465,185 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Import the serivces and send the message&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.storage.queue import QueueService&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;queue&lt;em&gt;service = QueueService(account&lt;/em&gt;name=”, account&lt;em&gt;key=”)
-queue&lt;/em&gt;service.create&lt;em&gt;queue(‘test’)
-queue&lt;/em&gt;service.put_messages(‘test’, ’&lt;message&gt;‘)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Example](./img/azure_queue_example.png)
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.storage.queue import QueueService
 
-*Peek message in Azure Storage Queue*
-
-You can peek the message in front of the queue without deleting the message in front of the queue.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;messages = queue&lt;em&gt;service.peek&lt;/em&gt;messages(‘&amp;#x3C;queue_name&gt;’)
+queue_service = QueueService(account_name=&amp;#39;&amp;#39;, account_key=&amp;#39;&amp;#39;)
+queue_service.create_queue(&amp;#39;test&amp;#39;)
+queue_service.put_messages(&amp;#39;test&amp;#39;, &amp;#39;&amp;lt;message&amp;gt;&amp;#39;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/6a24b/azure_queue_example.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 6.484893146647015%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAPklEQVQI1z2LOQoAUQjF5gqKuIE64P3P+GYpfhHSJFdXIzMxM7hfzAzufszMIKKf7j7N9+wuIgKqiqqCiOAB/zwZ2Qb675cAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Example&quot;
+        title=&quot;&quot;
+        src=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/fb8a0/azure_queue_example.png&quot;
+        srcset=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/1a291/azure_queue_example.png 148w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/2bc4a/azure_queue_example.png 295w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/fb8a0/azure_queue_example.png 590w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/526de/azure_queue_example.png 885w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/fa2eb/azure_queue_example.png 1180w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/6a24b/azure_queue_example.png 1357w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Peek message in Azure Storage Queue&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can peek the message in front of the queue without deleting the message in front of the queue.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;messages = queue_service.peek_messages(&amp;#39;&amp;lt;queue_name&amp;gt;&amp;#39;)
 for msg in message:
-print(msg.content)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;*DeQueue Messages from Azure Storage Queue*
-
-Dequeuing the message from the Azure Storage Queue will automatically delete the message from the Queue. Let&amp;#39;s have a quick look on it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;messages = queue&lt;em&gt;service.get&lt;/em&gt;messages(‘&amp;#x3C;queue&lt;em&gt;name&gt;’)
+    print(msg.content)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;DeQueue Messages from Azure Storage Queue&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Dequeuing the message from the Azure Storage Queue will automatically delete the message from the Queue. Let’s have a quick look on it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;messages = queue_service.get_messages(&amp;#39;&amp;lt;queue_name&amp;gt;&amp;#39;)
 for msg in messages:
-print(msg.content)
-queue&lt;/em&gt;service.delete&lt;em&gt;message(‘&amp;#x3C;queue&lt;/em&gt;name&gt;’, msg.id,msg.pop_receipt)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Azure Storage Delete](./img/azure_storage_queue_delete.png)
+    print(msg.content)
+    queue_service.delete_message(&amp;#39;&amp;lt;queue_name&amp;gt;&amp;#39;, msg.id,msg.pop_receipt)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/a6b5f/azure_storage_queue_delete.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.543147208121827%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAw0lEQVQY03WQ2Q6CMBRE+RjXyE4LpYAgi8Yl4IuJ//8jY+caH32Y3GZ6M3Naz1QTuv4huj9eGM8LxmlB6Xxd9CjthKIckOkOUVJjvc2w2am/8g6BwXavYeyIYZzROzE8zY4I4wpRXEtQEFXwQ4tUtYjTRpS4HU7eszBOGng0gshC5ScUZpBJGUeWmx62vqByUvokxKRl+c8/drdvGINdude0V8zPt9Aod5HpVuhSxfZaPIoeifywlF2eScY9vnK1SeQ7Pp/JhBNAG/79AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Azure Storage Delete&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/fb8a0/azure_storage_queue_delete.png&quot;
+        srcset=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/1a291/azure_storage_queue_delete.png 148w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/2bc4a/azure_storage_queue_delete.png 295w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/fb8a0/azure_storage_queue_delete.png 590w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/a6b5f/azure_storage_queue_delete.png 788w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;File System Service&lt;/h2&gt;
+&lt;p&gt;Almost same as blob service with a small differene that you can treat as an extended drive of your system. To achieve this move to File Service section in Azure Storage account and click on the &lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt; option on the top. Use the commands with the preference of your system to connect to Azure file system which will appear on the right hand side of your screen.&lt;/p&gt;
+&lt;!-- ![Azure file service](./img/azure_file_service.png) --&gt;
+&lt;h2&gt;Tables Service&lt;/h2&gt;
+&lt;p&gt;Azure table storage service stores a large amount of structured data. This service is a NoSql datastore. Azure table is stored is ideal for storing structured, non relational data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install python package for Azure CosmosDB table&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install azure-cosmosdb-table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;import table service and entity class&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.cosmosdb.table.tableservice import TableService
+from azure.cosmosdb.table.model import Entity&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/550b9847858aed69d611b9cf60d97ae6/669ef/t1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 23.801916932907346%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABBUlEQVQY0z2QWVLDMBBEfRhISFJUgR3Jjh0vWiI7XsMa4JP736GZmUrx0SVppHnTrSjLT7BuRGNHFGUr63n4gPMTXLigbnr4sMD6GYbuajOgolrbvSDNPcq6p1ovvSq1iBgQ2gvcaYEhsHEThvGTgDNC9yrDehqQHwMKUQtNjWXV4Skusd4obHbpv6Kuf8OR6J7cMDhRRsB5EZAevIAYXNZn7B4z3K0SgdyvEzxsNdUOIq6xIn7IkTiGJXeBogzTVSJPyzfFHMBDPSVgjfOV1plq7/QNk/RlNJhhPCD6+vmFziySfY3npCKHjThT2sif7G/nmO55rzMnUZW2iOk9g1Y3dwz8A5VLrTjl4GHGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;table&quot;
+        title=&quot;&quot;
+        src=&quot;/static/550b9847858aed69d611b9cf60d97ae6/fb8a0/t1.png&quot;
+        srcset=&quot;/static/550b9847858aed69d611b9cf60d97ae6/1a291/t1.png 148w,
+/static/550b9847858aed69d611b9cf60d97ae6/2bc4a/t1.png 295w,
+/static/550b9847858aed69d611b9cf60d97ae6/fb8a0/t1.png 590w,
+/static/550b9847858aed69d611b9cf60d97ae6/669ef/t1.png 626w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The entity object can be of type Entity. Every entity must include PartitionKey and RowKey properties.These are the unique itentifiers of your entity and together they form a primary key.
+Entities having same PartitionKey are stored on the same node. RowKey are used as an unique identifiers within a partition. &lt;/p&gt;
+&lt;p&gt;Now, add the entity object with insert_entity method.
 
-
-## File System Service 
-
-Almost same as blob service with a small differene that you can treat as an extended drive of your system. To achieve this move to File Service section in Azure Storage account and click on the ```connect``` option on the top. Use the commands with the preference of your system to connect to Azure file system which will appear on the right hand side of your screen.
-
-&amp;lt;!-- ![Azure file service](./img/azure_file_service.png) --&amp;gt;
-
-## Tables Service
-
-Azure table storage service stores a large amount of structured data. This service is a NoSql datastore. Azure table is stored is ideal for storing structured, non relational data.
-
-- Install python package for Azure CosmosDB table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;pip install azure-cosmosdb-table&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- import table service and entity class&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;from azure.cosmosdb.table.tableservice import TableService
-from azure.cosmosdb.table.model import Entity&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![table](./img/t1.png)
-
-The entity object can be of type Entity. Every entity must include PartitionKey and RowKey properties.These are the unique itentifiers of your entity and together they form a primary key.
-Entities having same PartitionKey are stored on the same node. RowKey are used as an unique identifiers within a partition. 
-
-Now, add the entity object with insert_entity method.
-![add table](./img/table3.png)
-
-In this way you can simple use the Azure Cosmosdb.
-
-Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/07067/table3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 7.27124183006536%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAAAsSAAALEgHS3X78AAAAO0lEQVQI12NwcPL5D8Mubv5w2tHZ97+Nncd/AyO7/3oG1v919a2BbNv/+oY2YL6OniVYDIT1DSHiIDYAY44hn6ROHj8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;add table&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/fb8a0/table3.png&quot;
+        srcset=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/1a291/table3.png 148w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/2bc4a/table3.png 295w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/fb8a0/table3.png 590w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/526de/table3.png 885w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/fa2eb/table3.png 1180w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/07067/table3.png 1224w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;In this way you can simple use the Azure Cosmosdb.&lt;/p&gt;
+&lt;p&gt;Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//Connecting_to_Tor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
 &lt;h2&gt;Bridging in Tor&lt;/h2&gt;
 &lt;p&gt;Bridges are also known as &lt;em&gt;Tor relays&lt;/em&gt;. Since there is no complete public list of Tor bridges the number of bridges that Tor runs are uncountable. That means if your ISP is tracking you and trying to filter your connections, he can’t block all the Tor relays. In case if you are blocked from getting connected to Tor network, this is where Tor bridges comes into play. Tor bridges not only helps you to connect to Tor network but it keeps your privacy safe and secure. Do try connecting to Tor network without using bridges in case it worked then it’s well and good.&lt;/p&gt;
 &lt;p&gt;Over the last few years ISPs have found ways of blocking client from connecting to Tor network. They have detectors which stops the flow of traffic when they detect Tor traffic. To conquer this problem Tor has introduced a concept of &lt;strong&gt;pluggable transport&lt;/strong&gt; which manipulates the traffic between client and first hop of Tor relay thus nullfying the chances of blocking you from Tor network.
