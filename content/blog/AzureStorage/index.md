@@ -1,27 +1,47 @@
 ---
 
 title: Azure Storage
-date: "2019-06-24T13:10:33.962Z"
+date: "2019-06-24T20:26:33.962Z"
 ---
 
 # Why storage
-Suppose you have a image processing website . You don't want your website to function slowly. So you have a backend servers for that. Now you also don't want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers. 
-After processing those all data should be now store somewhere else so you need a storage for that also. You don't use a database for storing because you can store object in database.
+Suppose you have a image processing website . You don't want your website to function slowly. So you have a backend servers for that. You also don't want your backend server to fail if number of process increases. In order to conquer this you make a storage account that stores processes and then you distribute those all processes equally in backend servers. 
+After processing those all data should be now store somewhere so you need a storage for that also. 
 
 ![Why_storage](./img/why_storage.png)
 
+Now, first lets understand why the difference between storage and database. It's important to understand the basic difference as developers might use database for storing things which shouldn't be stored there or vice versa.
+
 # Storage VS DataBase
 
-![Storage vs Database](./img/storage_database.png)
+| Storage                   |      Database          |
+|---------------------------|------------------------|
+|Storage is to store random objects.   |Databases is used to store interrelated data. |
+|Considering the above example you will need a storage for storing images you need to process.     |   Again, considering the above example you have to use a database for storing the details of the images.|
+
+I hope the basic difference between storage and database is clear. Let's move on. Now the question arises that what is Azure Storage and why we can use Azure Cloud Storage, even I want to move to Cloud Storage.
 
 # Azure Storage
-Azure Storage is a service from Azure which provides storage for various purposes. Azure storage is a cloud storage solutions for modern applications be it be scalibility, durability and availability.
+Azure Storage is a service from Azure which provides storage for various purposes. It is a cloud storage solutions for modern applications be it be scalibility, durability and availability.
+
+Lets discuss the various types of Storage account which you can use for your image processing website.
 
 - General Purpose Storage
+    These types of storage account includes the following two divisions:-
+
+    - StorageV1(general purpose V1)
+        + When to use Storage V1
+            - When you want azure classic demplyment model. Azure do have differrent types of deployment models depending on your subscription.
+            - When your applications is transition intensive and uses geo-replication bandwidth you can use Storage V1 account.
+
+        + No zone replication storage (ZRS)
+            - When you don't want your data to replicate to some other zone.
+
     - StorageV2(general purpose V2)
-        + Incorporates all features of general purpose V1 and blob storage
-        + Delivers lowest per gigabits cost
+        + It incorporates all features of general purpose V1 and blob storage account(we will study it in sometime.)
+        + When you want low per giga byte speed you can go for this.
         + Support Access Tiers
+            Access tiers are classified based upon the how frequently you want to use your data. These are classified as below.
             - Hot
                 Optimised for data that is stored and accessed frequently.
             - Cold
@@ -31,18 +51,12 @@ Azure Storage is a service from Azure which provides storage for various purpose
 
                 ![access_tiers](./img/access_tiers.png)
 
-    - StorageV1(general purpose V1)
-        + All features are same as general purpose V2 but with few difference.
-        + When to use Storage V1
-            - When you want azure class demplyment model.
-            - When your applications is transition intensive and uses geo-replication bandwidth.
-        + No zone replication storage (ZRS)
-
 - Blob Storage
     + A Binary Large OBject (BLOB) is a collection of binary data stored as a single entity in a database management system. Blobs are typically images, audio or other multimedia objects, though sometimes binary executable code is stored as a blob.
-    + Supports all access tiers.
 
 ![Azure_storage](./img/azure_storage.png)
+
+Next comes is an important feature of Azure Storage.
 
 *Replication*
 - Zone Redundant Storage (ZRS)
@@ -64,10 +78,13 @@ Consider the above scenario where you have two regions America and India. Now if
 ![replications](./img/replications.png)
 
 ## Components of Azure Storage
+ The following are the components of Azure Storage followed by the hands-on with python3.
 
 ## Blob Service
 File system service where you can upload any file. Same as S3 in Amazon Web Services.
 *Containers* Here containers are same as folder where you store files.
+
+Now suppose you want to storage images after processing images for your image processing website, so can use the following access tiers available in Azure Blob Service.
 
 There are 3 public access levels
 
@@ -82,6 +99,9 @@ If there is a folder inside this container that also can be accessed.
 
 ![containers](./img/container.png)
 
+Blob access tier is usually used by the companies as you can use it as an CDN(Content Delivery Network).
+
+**Hands-on**
 
 *Create a container in blob*
 
@@ -115,9 +135,11 @@ block_blob_service.get_blob_to_path('<container name>', 'file_name', 'full_path_
 
 ## Queue Service
 Queue Service is almost same as queue data structure which follows FIFO concept. Suppose we have a image processing website which performs various process. We can store all the processes there and then assign each process to every server.
+Suppose you want to store queries send my the users of your image processing website. You can use Queue Service for that.
 
 ![Azure Queue](./img/azure_queue.png)
 
+**Hands-on**
 *Send the message to Azure Storage Queue*
 
 - Install the azure storage python library
@@ -165,7 +187,6 @@ for msg in messages:
 
 Almost same as blob service with a small differene that you can treat as an extended drive of your system. To achieve this move to File Service section in Azure Storage account and click on the ```connect``` option on the top. Use the commands with the preference of your system to connect to Azure file system which will appear on the right hand side of your screen.
 
-<!-- ![Azure file service](./img/azure_file_service.png) -->
 
 ## Tables Service
 

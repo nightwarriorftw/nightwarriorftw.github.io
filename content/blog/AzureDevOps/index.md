@@ -1,6 +1,6 @@
 ---
 
-title: Azure DevOps
+title: Azure DevOps: A developers friend who also do operations
 date: "2019-06-24T20:26:33.962Z"
 ---
 
