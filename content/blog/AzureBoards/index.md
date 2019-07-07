@@ -50,7 +50,7 @@ Analyzing the above picture of backlogs of a project its clearly visible that ea
 
 ### Sprints
 Sprints helps you to get things done with your team. Each sprint comes with a burnout chart, backlogs and many more features that helps you and your team to deliver work on time.
-![Sprints](./img/azure_sprint.png)
+![Sprints](./img/azure_sprints.png)
 The above picture shows the sprint1 of a project whose team name is posterpoint. Currently the team has only 2 tasks in the sprint. You can also notice on the right hand side top corner that the current tasks has no iteration date, which off-course is because its a demo. But you can easily set an interation data i.e the starting and the ending date for each task or issue.
 
 
