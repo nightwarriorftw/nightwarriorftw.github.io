@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 07 Jul 2019 18:52:01 GMT</lastBuildDate><item><title><![CDATA[Azure Boards-The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io//AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 07 Jul 2019 18:57:33 GMT</lastBuildDate><item><title><![CDATA[Azure Boards-The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io//AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
 &lt;p&gt;Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also.&lt;/p&gt;
 &lt;h2&gt;Why Azure Boards ?&lt;/h2&gt;
 &lt;p&gt;Many software development companies uses Agile software development methodlogies as they are very efficient when it comes to building softwares. So Azure Boards implements it with an online approach. It provides an online dashboard which helps your team from planning sprints, stand-ups to planning meetings. You can customize your dashboards in the way you want which will increase your productivity.&lt;/p&gt;
@@ -52,12 +52,17 @@
 &lt;h3&gt;Boards&lt;/h3&gt;
 &lt;p&gt;Each project comes with a Kanban board which helps you to maintain the workflow the project. There are three section &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;To do
-The to-do tasks that your team need to perform for a particular project.&lt;/li&gt;
-&lt;li&gt;Doing
-Includes the list of tasks that are in pipeline.&lt;/li&gt;
-&lt;li&gt;Done
-The tasks that are completely successfully.
+&lt;li&gt;
+&lt;p&gt;To do&lt;/p&gt;
+&lt;p&gt;The to-do tasks that your team need to perform for a particular project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Doing &lt;/p&gt;
+&lt;p&gt;Includes the list of tasks that are in pipeline.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Done&lt;/p&gt;
+&lt;p&gt;The tasks that are completely successfully.
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -93,7 +98,8 @@ The tasks that are completely successfully.
   
   &lt;/a&gt;
     
-You can also customize columns for each team and project. Assign the tasks to an individual developer and you can also add specific tags to each task&lt;/li&gt;
+You can also customize columns for each team and project. Assign the tasks to an individual developer and you can also add specific tags to each task&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Backlogs&lt;/h3&gt;
 &lt;p&gt;Backlogs helps you to order the priority of tasks. You can simply order the tasks based on their priority with a single drag. Also, you can quickly assign work for an upcoming sprint.
