@@ -1,6 +1,6 @@
 ---
 
-title: Azure Boards___The Product Manager
+title: Azure Boards-The Product Manager
 date: "2019-07-07T20:26:33.962Z"
 ---
 

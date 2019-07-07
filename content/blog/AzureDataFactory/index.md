@@ -1,6 +1,6 @@
 ---
 
-title: Azure Data Factory___The lake of Storage
+title: Azure Data Factory_The lake of Storage
 date: "2019-07-07T20:26:33.962Z"
 ---
 
