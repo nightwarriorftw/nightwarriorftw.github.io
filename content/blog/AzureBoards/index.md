@@ -30,10 +30,13 @@ Work items are the artifacts which helps you to track your work on Azure Boards.
 ### Boards
 Each project comes with a Kanban board which helps you to maintain the workflow the project. There are three section 
 - To do
+
     The to-do tasks that your team need to perform for a particular project.
 - Doing 
+
     Includes the list of tasks that are in pipeline.
 - Done
+
     The tasks that are completely successfully. 
 ![Work Items](./img/azure_boards_boards.png)
 You can also customize columns for each team and project. Assign the tasks to an individual developer and you can also add specific tags to each task
