@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 24 Jun 2019 15:07:44 GMT</lastBuildDate><item><title><![CDATA[Azure DevOps]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io//AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 07 Jul 2019 18:43:46 GMT</lastBuildDate><item><title><![CDATA[Azure Boards___The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io//AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
+&lt;p&gt;Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also.&lt;/p&gt;
+&lt;h2&gt;Why Azure Boards ?&lt;/h2&gt;
+&lt;p&gt;Many software development companies uses Agile software development methodlogies as they are very efficient when it comes to building softwares. So Azure Boards implements it with an online approach. It provides an online dashboard which helps your team from planning sprints, stand-ups to planning meetings. You can customize your dashboards in the way you want which will increase your productivity.&lt;/p&gt;
+&lt;h2&gt;The core features of Azure Boards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Work Items&lt;/li&gt;
+&lt;li&gt;Boards&lt;/li&gt;
+&lt;li&gt;Backlogs&lt;/li&gt;
+&lt;li&gt;Sprint&lt;/li&gt;
+&lt;li&gt;Queries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At this moment you must be thinking what these terms signifies. So lets go through these terms and understand them with suitable examples.&lt;/p&gt;
+&lt;h3&gt;Work Items&lt;/h3&gt;
+&lt;p&gt;Work items are the artifacts which helps you to track your work on Azure Boards. You can create tasks require to perform for your softwares and assigned in your team. You can also check the status of your work. Clicking on any of the work item will show you the history of that work item to whom it has been assigned, what is its progress and if somebody commented on it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/azure_work_items.png&quot; alt=&quot;Work Items&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Boards&lt;/h3&gt;
+&lt;p&gt;Each project comes with a Kanban board which helps you to maintain the workflow the project. There are three section &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To do
+The to-do tasks that your team need to perform for a particular project.&lt;/li&gt;
+&lt;li&gt;Doing
+Includes the list of tasks that are in pipeline.&lt;/li&gt;
+&lt;li&gt;Done
+The tasks that are completely successfully.
+&lt;img src=&quot;./img/azure_boards_boards.png&quot; alt=&quot;Work Items&quot;&gt;
+You can also customize columns for each team and project. Assign the tasks to an individual developer and you can also add specific tags to each task&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Backlogs&lt;/h3&gt;
+&lt;p&gt;Backlogs helps you to order the priority of tasks. You can simply order the tasks based on their priority with a single drag. Also, you can quickly assign work for an upcoming sprint.
+&lt;img src=&quot;./img/azure_backlogs.png&quot; alt=&quot;Backlogs&quot;&gt;
+Analyzing the above picture of backlogs of a project its clearly visible that each task has a specific order which can be assigned to anyone. Order of the task can be change depending on its priority.&lt;/p&gt;
+&lt;h3&gt;Sprints&lt;/h3&gt;
+&lt;p&gt;Sprints helps you to get things done with your team. Each sprint comes with a burnout chart, backlogs and many more features that helps you and your team to deliver work on time.
+&lt;img src=&quot;./img/azure_sprint.png&quot; alt=&quot;Sprints&quot;&gt;
+The above picture shows the sprint1 of a project whose team name is posterpoint. Currently the team has only 2 tasks in the sprint. You can also notice on the right hand side top corner that the current tasks has no iteration date, which off-course is because its a demo. But you can easily set an interation data i.e the starting and the ending date for each task or issue.&lt;/p&gt;
+&lt;h3&gt;Queries&lt;/h3&gt;
+&lt;p&gt;It’s also known as the most powerful feature of Azure Boards. It helps you to find exactly what issue or task you want to track or monitor.&lt;/p&gt;
+&lt;p&gt;Getting started with Azure Boards is a simple and easy task. You can go on &lt;a href=&quot;https://dev.azure.com&quot;&gt;Azure Devops Portal&lt;/a&gt; and can start using it by simply making an account depending on your subscription. Companies like Apple, Microsoft and Google follow the Agile Software Development methodlogies because its an efficient way to make a software completely successful. You must be thinking at this moment that why there is a need of any Product Manager in a company when you have Azure Board or something similar to it which manages a workflow of the product. Well do some reasearch and answer yourself till then stay tuned.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Data Factory___The lake of Storage]]></title><description><![CDATA[Why Azure Data Factory Suppose you are running a huge company which has a huge database on-premise. Now to keep that data secure and safe…]]></description><link>https://nightwarrior-xxx.github.io//AzureDataFactory/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDataFactory/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why Azure Data Factory&lt;/h1&gt;
+&lt;p&gt;Suppose you are running a huge company which has a huge database on-premise. Now to keep that data secure and safe you need to need to keep it somewhere where no one can harm it. So, if you are thinking to keep your database on cloud then you are thinking correct. But it isn’t that easy. You have to manage your database properly before uploading it to cloud.&lt;/p&gt;
+&lt;p&gt;Azure Data Factory will help you to automate this stuff or I should say orchestrate these tasks into a easy way.&lt;/p&gt;
+&lt;h2&gt;Data Factory&lt;/h2&gt;
+&lt;p&gt;In layman language data factory is a service which will help you to store data then make that data ready for processing by managing and manipulating it.
+Alternatively, it collects the data then transform it into various schemas and then makes it ready for publishing and monitoring.&lt;/p&gt;
+&lt;h2&gt;Data Factory Concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;pipelines
+Considering the above example suppose your company has pushed the data into a cloud and its performing some activity on that data which is done in a pipeline.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;datasets
+Your companies data will be stored in a data structure which is known as datasets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;linked services
+Now suppose your company have to push data to cloud and this obviously cannot be done with help of some magic. You will need a medium or an external service to upload that data to cloud. These tools are called linked service.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;activities
+Performing some action on data stored is known as activity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Data Lakes&lt;/h2&gt;
+&lt;p&gt;Data Lakes perform two-in-one task. It lets you to store data from all sources of any size and type and then help you to analyze that data with the help of various analytics tools.&lt;/p&gt;
+&lt;h2&gt;Data Warehouse&lt;/h2&gt;
+&lt;p&gt;Data is written in a structured format or in a particular form. You have to read that data in the form it is written. It uses SQl to query your data.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure DevOps___A developers friend who also do operations]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io//AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
 &lt;p&gt;Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications.&lt;/p&gt;
 &lt;h3&gt;What is DevOps ?&lt;/h3&gt;
 &lt;p&gt;DevOps is a integration of Development and Operations teams in order to improve collaboration and productivity. This is done by automating workflows and productivity.
@@ -182,9 +248,9 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;It is a complete toolkit which provides end-to-end and manual testing ensuring your software is working just fine.&lt;/p&gt;
-&lt;p&gt;This is just a small blog post on Azure Devops. I will be back with a bigger one till then stay tuned !! &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Storage]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://nightwarrior-xxx.github.io//AzureStrorage/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureStrorage/</guid><pubDate>Mon, 24 Jun 2019 13:10:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
-&lt;p&gt;Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. Now you also don’t want your backend server to fail if number of process increases. So you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
-After processing those all data should be now store somewhere else so you need a storage for that also. You don’t use a database for storing because you can store object in database.&lt;/p&gt;
+&lt;p&gt;This is just a small blog post on Azure Devops. I will be back with a bigger one till then stay tuned !! &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Storage___A friend who rents his space]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://nightwarrior-xxx.github.io//AzureStorage/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureStorage/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
+&lt;p&gt;Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. You also don’t want your backend server to fail if number of process increases. In order to conquer this you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
+After processing those all data should be now store somewhere so you need a storage for that also. &lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -221,60 +287,65 @@ After processing those all data should be now store somewhere else so you need a
   
   &lt;/a&gt;
     &lt;/p&gt;
+&lt;p&gt;Now, first lets understand why the difference between storage and database. It’s important to understand the basic difference as developers might use database for storing things which shouldn’t be stored there or vice versa.&lt;/p&gt;
 &lt;h1&gt;Storage VS DataBase&lt;/h1&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/50f1eda8e67b3726642144902dabfcad/e57a0/storage_database.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 43.38842975206612%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAB6UlEQVQoz1WSy2oUQRSG50l8B5/EbVa6c+NewQdwZYKanQSEgJKVIAF1IaKiURzFC1FJZnKZ6enM9LWmp9PX6urP0zUaY8FP1Tl16j//Oad6xrTousDbe8vCP6BIfYwxNE1jQWtwk5ykqJALe1fUDV/GCTvDGG9R2pi/8T0D1InD/rPbDF5vMtl5QFNnNJKolcd5rdkNU0uktSSQdTBV3Ljf59q9Pk/eDa1PnydskiPa51dh+zLNq+tCmKOFUCSxpzKGi2L5SOsl4eiQh+tX2Lq7wssXj6yvkTtL2ClpqhT9fQP9cRU9eCzqDLUtt+XmrsOF7Q+sDaa2NNGNr1LWNza5tXaH919/niX7Rygyu2LOIL66aW3gyqchvdUtLr75IVYrpS/LPr9as+x115aeqRJMOReo5V51SKgLJc1N+TXPuNQf8tSNyPKKuENWEp8Wf1CisoowLSil3z3PmxGHHmEwI/CmeDMX3ztBqQiTh6g857MMpSpKXD9k5vkEUczUD5jK2QtCQrEX8guUJOodj08YOy5RPEfNU7vHKiErdTd+vgWKiahI8gLHcRgdHeJOHCbjESfd7oytkLwUpbkQ6jyiPpW/V0S0ZWxhOohdpFP2o4XMRgaxkGm7PsezUM75fwgErjplLu34DZwWoMpDdHBhAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Storage vs Database&quot;
-        title=&quot;&quot;
-        src=&quot;/static/50f1eda8e67b3726642144902dabfcad/fb8a0/storage_database.png&quot;
-        srcset=&quot;/static/50f1eda8e67b3726642144902dabfcad/1a291/storage_database.png 148w,
-/static/50f1eda8e67b3726642144902dabfcad/2bc4a/storage_database.png 295w,
-/static/50f1eda8e67b3726642144902dabfcad/fb8a0/storage_database.png 590w,
-/static/50f1eda8e67b3726642144902dabfcad/526de/storage_database.png 885w,
-/static/50f1eda8e67b3726642144902dabfcad/fa2eb/storage_database.png 1180w,
-/static/50f1eda8e67b3726642144902dabfcad/e57a0/storage_database.png 1210w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Storage&lt;/th&gt;
+&lt;th&gt;Database&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Storage is to store random objects.&lt;/td&gt;
+&lt;td&gt;Databases is used to store interrelated data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Considering the above example you will need a storage for storing images you need to process.&lt;/td&gt;
+&lt;td&gt;Again, considering the above example you have to use a database for storing the details of the images.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I hope the basic difference between storage and database is clear. Let’s move on. Now the question arises that what is Azure Storage and why we can use Azure Cloud Storage, even I want to move to Cloud Storage.&lt;/p&gt;
 &lt;h1&gt;Azure Storage&lt;/h1&gt;
-&lt;p&gt;Azure Storage is a service from Azure which provides storage for various purposes. Azure storage is a cloud storage solutions for modern applications be it be scalibility, durability and availability.&lt;/p&gt;
+&lt;p&gt;Azure Storage is a service from Azure which provides storage for various purposes. It is a cloud storage solutions for modern applications be it be scalibility, durability and availability.&lt;/p&gt;
+&lt;p&gt;Lets discuss the various types of Storage account which you can use for your image processing website.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;General Purpose Storage&lt;/p&gt;
+&lt;p&gt;General Purpose Storage
+These types of storage account includes the following two divisions:-&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;StorageV1(general purpose V1)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When to use Storage V1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When you want azure classic demplyment model. Azure do have differrent types of deployment models depending on your subscription.&lt;/li&gt;
+&lt;li&gt;When your applications is transition intensive and uses geo-replication bandwidth you can use Storage V1 account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No zone replication storage (ZRS)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When you don’t want your data to replicate to some other zone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;StorageV2(general purpose V2)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Incorporates all features of general purpose V1 and blob storage&lt;/p&gt;
+&lt;p&gt;It incorporates all features of general purpose V1 and blob storage account(we will study it in sometime.)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Delivers lowest per gigabits cost&lt;/p&gt;
+&lt;p&gt;When you want low per giga byte speed you can go for this.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Support Access Tiers&lt;/p&gt;
+&lt;p&gt;Support Access Tiers
+Access tiers are classified based upon the how frequently you want to use your data. These are classified as below.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Hot
@@ -324,27 +395,12 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;StorageV1(general purpose V1)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;All features are same as general purpose V2 but with few difference.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;When to use Storage V1&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;When you want azure class demplyment model.&lt;/li&gt;
-&lt;li&gt;When your applications is transition intensive and uses geo-replication bandwidth.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;No zone replication storage (ZRS)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Blob Storage&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A Binary Large OBject (BLOB) is a collection of binary data stored as a single entity in a database management system. Blobs are typically images, audio or other multimedia objects, though sometimes binary executable code is stored as a blob.&lt;/li&gt;
-&lt;li&gt;Supports all access tiers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -381,6 +437,7 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
   
   &lt;/a&gt;
     &lt;/p&gt;
+&lt;p&gt;Next comes is an important feature of Azure Storage.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Replication&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Zone Redundant Storage (ZRS)&lt;/li&gt;
@@ -432,9 +489,11 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;h2&gt;Components of Azure Storage&lt;/h2&gt;
+&lt;p&gt; The following are the components of Azure Storage followed by the hands-on with python3.&lt;/p&gt;
 &lt;h2&gt;Blob Service&lt;/h2&gt;
 &lt;p&gt;File system service where you can upload any file. Same as S3 in Amazon Web Services.
 &lt;em&gt;Containers&lt;/em&gt; Here containers are same as folder where you store files.&lt;/p&gt;
+&lt;p&gt;Now suppose you want to storage images after processing images for your image processing website, so can use the following access tiers available in Azure Blob Service.&lt;/p&gt;
 &lt;p&gt;There are 3 public access levels&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -483,6 +542,8 @@ If there is a folder inside this container that also can be accessed.&lt;/p&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
+&lt;p&gt;Blob access tier is usually used by the companies as you can use it as an CDN(Content Delivery Network).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hands-on&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Create a container in blob&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.storage.blob import BlockBlobService
 block_blob_service = BlockBlobService(account_name=&amp;#39;&amp;lt;account_name&amp;gt;&amp;#39;, account_key=&amp;#39;&amp;lt;account_key&amp;gt;&amp;#39;)
@@ -604,7 +665,8 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;h2&gt;Queue Service&lt;/h2&gt;
-&lt;p&gt;Queue Service is almost same as queue data structure which follows FIFO concept. Suppose we have a image processing website which performs various process. We can store all the processes there and then assign each process to every server.&lt;/p&gt;
+&lt;p&gt;Queue Service is almost same as queue data structure which follows FIFO concept. Suppose we have a image processing website which performs various process. We can store all the processes there and then assign each process to every server.
+Suppose you want to store queries send my the users of your image processing website. You can use Queue Service for that.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -641,7 +703,8 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Send the message to Azure Storage Queue&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hands-on&lt;/strong&gt;
+&lt;em&gt;Send the message to Azure Storage Queue&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Install the azure storage python library&lt;/p&gt;
@@ -739,7 +802,6 @@ for msg in messages:
     &lt;/p&gt;
 &lt;h2&gt;File System Service&lt;/h2&gt;
 &lt;p&gt;Almost same as blob service with a small differene that you can treat as an extended drive of your system. To achieve this move to File Service section in Azure Storage account and click on the &lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt; option on the top. Use the commands with the preference of your system to connect to Azure file system which will appear on the right hand side of your screen.&lt;/p&gt;
-&lt;!-- ![Azure file service](./img/azure_file_service.png) --&gt;
 &lt;h2&gt;Tables Service&lt;/h2&gt;
 &lt;p&gt;Azure table storage service stores a large amount of structured data. This service is a NoSql datastore. Azure table is stored is ideal for storing structured, non relational data.&lt;/p&gt;
 &lt;ul&gt;
