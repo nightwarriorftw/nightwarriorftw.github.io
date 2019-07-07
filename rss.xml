@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 07 Jul 2019 18:43:46 GMT</lastBuildDate><item><title><![CDATA[Azure Boards___The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io//AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 07 Jul 2019 18:49:56 GMT</lastBuildDate><item><title><![CDATA[Azure Boards___The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io//AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
 &lt;p&gt;Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also.&lt;/p&gt;
 &lt;h2&gt;Why Azure Boards ?&lt;/h2&gt;
 &lt;p&gt;Many software development companies uses Agile software development methodlogies as they are very efficient when it comes to building softwares. So Azure Boards implements it with an online approach. It provides an online dashboard which helps your team from planning sprints, stand-ups to planning meetings. You can customize your dashboards in the way you want which will increase your productivity.&lt;/p&gt;
@@ -13,7 +13,42 @@
 &lt;p&gt;At this moment you must be thinking what these terms signifies. So lets go through these terms and understand them with suitable examples.&lt;/p&gt;
 &lt;h3&gt;Work Items&lt;/h3&gt;
 &lt;p&gt;Work items are the artifacts which helps you to track your work on Azure Boards. You can create tasks require to perform for your softwares and assigned in your team. You can also check the status of your work. Clicking on any of the work item will show you the history of that work item to whom it has been assigned, what is its progress and if somebody commented on it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./img/azure_work_items.png&quot; alt=&quot;Work Items&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7354a4941143e21edc643b8d096e2d35/a4aa8/azure_work_items.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.52811735941321%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA10lEQVQoz6VQSQ7CMAzM8/kFX+HEiQMP4AQcCqgCtVmbOIMTKBQIFctII1texxZ1XaNtWwQiWGvhQ4BzDq7zsGyt6+C9R0KMMbME4rinCKG1RtM0UEpdqW++TJQKWisYY5Bqk805KbOQZC++5LyBSBuJ1fXbSwwsyhMr5DoaYYwEgTFwQYJbTuHmk/640RbxTlVupQDrI+R6gXY1g+kox4b/fGZR4X0g4bDfY7s7YrM7oaoqhEAPNS8K3147aOh4iAtUzH00sG+4n3/h8B0/Kyz99muF/+AMqDUVsUr0RDgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Work Items&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7354a4941143e21edc643b8d096e2d35/fb8a0/azure_work_items.png&quot;
+        srcset=&quot;/static/7354a4941143e21edc643b8d096e2d35/1a291/azure_work_items.png 148w,
+/static/7354a4941143e21edc643b8d096e2d35/2bc4a/azure_work_items.png 295w,
+/static/7354a4941143e21edc643b8d096e2d35/fb8a0/azure_work_items.png 590w,
+/static/7354a4941143e21edc643b8d096e2d35/526de/azure_work_items.png 885w,
+/static/7354a4941143e21edc643b8d096e2d35/fa2eb/azure_work_items.png 1180w,
+/static/7354a4941143e21edc643b8d096e2d35/a4aa8/azure_work_items.png 1636w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h3&gt;Boards&lt;/h3&gt;
 &lt;p&gt;Each project comes with a Kanban board which helps you to maintain the workflow the project. There are three section &lt;/p&gt;
 &lt;ul&gt;
@@ -23,12 +58,80 @@ The to-do tasks that your team need to perform for a particular project.&lt;/li&
 Includes the list of tasks that are in pipeline.&lt;/li&gt;
 &lt;li&gt;Done
 The tasks that are completely successfully.
-&lt;img src=&quot;./img/azure_boards_boards.png&quot; alt=&quot;Work Items&quot;&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/f6e09/azure_boards_boards.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.0385288966725%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAAzElEQVQ4y+2P6wqCQBSEff9nC0LoR0LQBaSCJC97ca+TZ2llU5EewIXB9TjnmzHTSsN7/yNrLIzWoDPOrEXf91BKhXfn3PiMd1KWX3M0TYO2bYM456jbGqfbBdWrQl2/0XUdjDEQQoQ7eaIYY9BJeLYrDrg/ngFKC955MMmwPxbDMkM3LFEDOtSOgFPRfASey3JIEpBShhY0FHJoInmAUzr9Pn0jDwGoVdQMKL7V08RonCrOV4GpeWlhqr+AqXEJvhY4A6412IAbcBn4AUsoPFRgZ3yIAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Work Items&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/fb8a0/azure_boards_boards.png&quot;
+        srcset=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/1a291/azure_boards_boards.png 148w,
+/static/8d6060b75fd183d1ddb4819506db18a5/2bc4a/azure_boards_boards.png 295w,
+/static/8d6060b75fd183d1ddb4819506db18a5/fb8a0/azure_boards_boards.png 590w,
+/static/8d6060b75fd183d1ddb4819506db18a5/526de/azure_boards_boards.png 885w,
+/static/8d6060b75fd183d1ddb4819506db18a5/f6e09/azure_boards_boards.png 1142w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
 You can also customize columns for each team and project. Assign the tasks to an individual developer and you can also add specific tags to each task&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Backlogs&lt;/h3&gt;
 &lt;p&gt;Backlogs helps you to order the priority of tasks. You can simply order the tasks based on their priority with a single drag. Also, you can quickly assign work for an upcoming sprint.
-&lt;img src=&quot;./img/azure_backlogs.png&quot; alt=&quot;Backlogs&quot;&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/34f45b36b4d45137771243754d193588/51a1f/azure_backlogs.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.91256830601093%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAAnUlEQVQoz+2Q2woCMQxE+/+/qSyiS227vaRN2zGWXVx8UVDfHDgEMskQokKMWJwD5QIfApJQuCJKzUQA+sqTet95D5TxCS4kpNIQJPSor5gd4WwjPFUQN6FjiYTDdMJ00dAuwKeCQDy8++6G4tqR5SKuDblWzNbAyoJxfvRr64PMDG2seB4x0ejx6u1R+LJUl1+8Bnhv7hcX/gM/1g1oYxhKKJs5rwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Backlogs&quot;
+        title=&quot;&quot;
+        src=&quot;/static/34f45b36b4d45137771243754d193588/fb8a0/azure_backlogs.png&quot;
+        srcset=&quot;/static/34f45b36b4d45137771243754d193588/1a291/azure_backlogs.png 148w,
+/static/34f45b36b4d45137771243754d193588/2bc4a/azure_backlogs.png 295w,
+/static/34f45b36b4d45137771243754d193588/fb8a0/azure_backlogs.png 590w,
+/static/34f45b36b4d45137771243754d193588/526de/azure_backlogs.png 885w,
+/static/34f45b36b4d45137771243754d193588/51a1f/azure_backlogs.png 1098w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
 Analyzing the above picture of backlogs of a project its clearly visible that each task has a specific order which can be assigned to anyone. Order of the task can be change depending on its priority.&lt;/p&gt;
 &lt;h3&gt;Sprints&lt;/h3&gt;
 &lt;p&gt;Sprints helps you to get things done with your team. Each sprint comes with a burnout chart, backlogs and many more features that helps you and your team to deliver work on time.
