@@ -1,6 +1,6 @@
 ---
 
-title: Azure Storage: A friend who rents his space
+title: Azure Storage___A friend who rents his space
 date: "2019-06-24T20:26:33.962Z"
 ---
 
