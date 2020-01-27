@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Learn to talk to computers`,
-    author: `nightwarrior-xxx`,
+    author: `nightwarriorftw`,
     description: `Stop Talking | Start Programming`,
-    siteUrl: `https://nightwarrior-xxx.github.io/`,
+    siteUrl: `https://nightwarrior-xxx.github.io/blog`,
     social: {
-      twitter: `nightwarrior_xx`,
+      twitter: `nightwarriorftw`,
     },
   },
   plugins: [
