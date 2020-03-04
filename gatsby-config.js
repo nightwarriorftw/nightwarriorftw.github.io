@@ -3,7 +3,7 @@ module.exports = {
     title: `Learn to talk to computers`,
     author: `nightwarriorftw`,
     description: `Stop Talking | Start Programming`,
-    siteUrl: `https://nightwarrior-xxx.github.io/blog`,
+    siteUrl: `https://nightwarriorftw.github.io/blog`,
     social: {
       twitter: `nightwarriorftw`,
     },
