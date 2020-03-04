@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 07 Jul 2019 19:01:17 GMT</lastBuildDate><item><title><![CDATA[Azure Boards-The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io//AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Learn to talk to computers]]></title><description><![CDATA[Stop Talking | Start Programming]]></description><link>https://nightwarrior-xxx.github.io/blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 04 Mar 2020 04:41:44 GMT</lastBuildDate><item><title><![CDATA[How to Start Contributing to Firefox Devtools ?]]></title><description><![CDATA[Firefox Devtools is a complex app. However, if you have a good knowledge of HTML,CSS and Javascript you can easily start contributing. In…]]></description><link>https://nightwarrior-xxx.github.io/blog/HowToStartContributingToFirefoxDevtools/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/HowToStartContributingToFirefoxDevtools/</guid><pubDate>Wed, 04 Mar 2020 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Firefox Devtools is a complex app. However, if you have a good knowledge of HTML,CSS and Javascript you can easily start contributing. In order to start contributing to Firefox Devtools you first need to setup codebase and follow few steps.&lt;/p&gt;
+&lt;h3&gt;Getting a Bugzilla Account&lt;/h3&gt;
+&lt;p&gt;Mozilla’s Bug tracker is Bugzilla. You first need to setup an Bugzilla account &lt;a href=&quot;https://bugzilla.mozilla.org/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Getting and Building the Code&lt;/h3&gt;
+&lt;p&gt;There are few steps we have to follow in order to get and build the code.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- Install Mercurial&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Install mercurial, if you haven’t.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;apt-get install mercurial&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- Get the code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;mozilla-central&lt;/code&gt; is a very big repository with size &gt;= 2GB, so it might take time to pull changes. Moreover you need to be patient and have 40GB free disk space.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;hg clone https://hg.mozilla.org/mozilla-central&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If your internet connection is slow, or you face errors while pulling the codebase, you can go through &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Mercurial/Bundles&quot;&gt;this&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Remember there are other ways to, like writing a script and pulling the codebase in chunks.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- Building and running locally&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Try building Firefox and downloading dependencies by running this command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;./mach bootstrap&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After this command finishes you might be asked to make a file called &lt;code class=&quot;language-text&quot;&gt;mozconfig&lt;/code&gt; and write few lines to it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Automatically download and use compiled C++ components:
+ac_add_options --enable-artifact-builds&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Make sure to add the above lines to the respective file mentioned above as this is an addons step not to build Mozilla Nightly from scratch. In Layman’s language it is bascially using &lt;code class=&quot;language-text&quot;&gt;Artifacts Mode&lt;/code&gt; to build Mozilla Nighty. &lt;/p&gt;
+&lt;p&gt;Then run this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;./mach configure
+./mach build&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- To run the Firefox you just compiled:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;./mach run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- To rebuild use&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;./mach build faster&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Pick a bug and start work&lt;/h3&gt;
+&lt;p&gt;Next step is to pick a bug and start working on it. You can pick bugs either from &lt;a href=&quot;https://bugs.firefox-dev.tools/?easy&amp;#x26;tool=all&quot;&gt;here&lt;/a&gt; or from &lt;a href=&quot;https://codetribute.mozilla.org/projects/devtools?project%3DAll%26assignee%3DAny&quot;&gt;Bugzilla itself&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Push and get reviewed&lt;/h3&gt;
+&lt;p&gt;Push the code to the Phabricator and get your patch reviewed from the mentor. Remember you first need to setup an &lt;a href=&quot;https://moz-conduit.readthedocs.io/en/latest/phabricator-user.html#creating-an-account&quot;&gt;Phabricator account&lt;/a&gt;. Also you should once go through &lt;a href=&quot;https://docs.firefox-dev.tools/contributing/code-reviews-setup.html&quot;&gt;this&lt;/a&gt;, inorder to get more clear.&lt;/p&gt;
+&lt;p&gt;In order to push your commit to Phabricator, you need to install &lt;a href=&quot;https://moz-conduit.readthedocs.io/en/latest/phabricator-user.html#using-moz-phab&quot;&gt;moz-phab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Make changes to the file and run this&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;hg add /path/to/file/changed
+hg commit -m &amp;quot;Bug 1112233 - Implement something. r=name,..&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The above commit command has a specific format of writing a commit message which goes like this&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Bug 1112233 // Bug number
+Implement something // commit message
+r=name // name to the reviewer.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There are also some steps that you need to take care of like running test before pushing such that you don’t break anything.&lt;/p&gt;
+&lt;p&gt;This is just a basic starting document for more detailed description you can refer &lt;a href=&quot;https://docs.firefox-dev.tools/contributing/code-reviews-setup.html&quot;&gt;this&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Boards-The Product Manager]]></title><description><![CDATA[Azure Boards Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also. Why Azure Boards ? Many…]]></description><link>https://nightwarrior-xxx.github.io/blog/AzureBoards/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/AzureBoards/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Azure Boards&lt;/h1&gt;
 &lt;p&gt;Azure Boards are used to track your work. It helps you to maintain backlogs and create reports also.&lt;/p&gt;
 &lt;h2&gt;Why Azure Boards ?&lt;/h2&gt;
 &lt;p&gt;Many software development companies uses Agile software development methodlogies as they are very efficient when it comes to building softwares. So Azure Boards implements it with an online approach. It provides an online dashboard which helps your team from planning sprints, stand-ups to planning meetings. You can customize your dashboards in the way you want which will increase your productivity.&lt;/p&gt;
@@ -16,7 +56,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7354a4941143e21edc643b8d096e2d35/a4aa8/azure_work_items.png&quot;
+    href=&quot;/static/7354a4941143e21edc643b8d096e2d35/0bf9b/azure_work_items.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -35,13 +75,13 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Work Items&quot;
         title=&quot;&quot;
-        src=&quot;/static/7354a4941143e21edc643b8d096e2d35/fb8a0/azure_work_items.png&quot;
-        srcset=&quot;/static/7354a4941143e21edc643b8d096e2d35/1a291/azure_work_items.png 148w,
-/static/7354a4941143e21edc643b8d096e2d35/2bc4a/azure_work_items.png 295w,
-/static/7354a4941143e21edc643b8d096e2d35/fb8a0/azure_work_items.png 590w,
-/static/7354a4941143e21edc643b8d096e2d35/526de/azure_work_items.png 885w,
-/static/7354a4941143e21edc643b8d096e2d35/fa2eb/azure_work_items.png 1180w,
-/static/7354a4941143e21edc643b8d096e2d35/a4aa8/azure_work_items.png 1636w&quot;
+        src=&quot;/static/7354a4941143e21edc643b8d096e2d35/b9e4f/azure_work_items.png&quot;
+        srcset=&quot;/static/7354a4941143e21edc643b8d096e2d35/cf440/azure_work_items.png 148w,
+/static/7354a4941143e21edc643b8d096e2d35/d2d38/azure_work_items.png 295w,
+/static/7354a4941143e21edc643b8d096e2d35/b9e4f/azure_work_items.png 590w,
+/static/7354a4941143e21edc643b8d096e2d35/f9b6a/azure_work_items.png 885w,
+/static/7354a4941143e21edc643b8d096e2d35/2d849/azure_work_items.png 1180w,
+/static/7354a4941143e21edc643b8d096e2d35/0bf9b/azure_work_items.png 1636w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -66,7 +106,7 @@
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/f6e09/azure_boards_boards.png&quot;
+    href=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/a4b20/azure_boards_boards.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -85,12 +125,12 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Work Items&quot;
         title=&quot;&quot;
-        src=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/fb8a0/azure_boards_boards.png&quot;
-        srcset=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/1a291/azure_boards_boards.png 148w,
-/static/8d6060b75fd183d1ddb4819506db18a5/2bc4a/azure_boards_boards.png 295w,
-/static/8d6060b75fd183d1ddb4819506db18a5/fb8a0/azure_boards_boards.png 590w,
-/static/8d6060b75fd183d1ddb4819506db18a5/526de/azure_boards_boards.png 885w,
-/static/8d6060b75fd183d1ddb4819506db18a5/f6e09/azure_boards_boards.png 1142w&quot;
+        src=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/b9e4f/azure_boards_boards.png&quot;
+        srcset=&quot;/static/8d6060b75fd183d1ddb4819506db18a5/cf440/azure_boards_boards.png 148w,
+/static/8d6060b75fd183d1ddb4819506db18a5/d2d38/azure_boards_boards.png 295w,
+/static/8d6060b75fd183d1ddb4819506db18a5/b9e4f/azure_boards_boards.png 590w,
+/static/8d6060b75fd183d1ddb4819506db18a5/f9b6a/azure_boards_boards.png 885w,
+/static/8d6060b75fd183d1ddb4819506db18a5/a4b20/azure_boards_boards.png 1142w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -106,7 +146,7 @@ You can also customize columns for each team and project. Assign the tasks to an
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/34f45b36b4d45137771243754d193588/51a1f/azure_backlogs.png&quot;
+    href=&quot;/static/34f45b36b4d45137771243754d193588/77df2/azure_backlogs.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -125,12 +165,12 @@ You can also customize columns for each team and project. Assign the tasks to an
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Backlogs&quot;
         title=&quot;&quot;
-        src=&quot;/static/34f45b36b4d45137771243754d193588/fb8a0/azure_backlogs.png&quot;
-        srcset=&quot;/static/34f45b36b4d45137771243754d193588/1a291/azure_backlogs.png 148w,
-/static/34f45b36b4d45137771243754d193588/2bc4a/azure_backlogs.png 295w,
-/static/34f45b36b4d45137771243754d193588/fb8a0/azure_backlogs.png 590w,
-/static/34f45b36b4d45137771243754d193588/526de/azure_backlogs.png 885w,
-/static/34f45b36b4d45137771243754d193588/51a1f/azure_backlogs.png 1098w&quot;
+        src=&quot;/static/34f45b36b4d45137771243754d193588/b9e4f/azure_backlogs.png&quot;
+        srcset=&quot;/static/34f45b36b4d45137771243754d193588/cf440/azure_backlogs.png 148w,
+/static/34f45b36b4d45137771243754d193588/d2d38/azure_backlogs.png 295w,
+/static/34f45b36b4d45137771243754d193588/b9e4f/azure_backlogs.png 590w,
+/static/34f45b36b4d45137771243754d193588/f9b6a/azure_backlogs.png 885w,
+/static/34f45b36b4d45137771243754d193588/77df2/azure_backlogs.png 1098w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -144,7 +184,7 @@ Analyzing the above picture of backlogs of a project its clearly visible that ea
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/573f1b75a6364c9527f131b46116e018/2d756/azure_sprints.png&quot;
+    href=&quot;/static/573f1b75a6364c9527f131b46116e018/a4ab0/azure_sprints.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -163,13 +203,13 @@ Analyzing the above picture of backlogs of a project its clearly visible that ea
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sprints&quot;
         title=&quot;&quot;
-        src=&quot;/static/573f1b75a6364c9527f131b46116e018/fb8a0/azure_sprints.png&quot;
-        srcset=&quot;/static/573f1b75a6364c9527f131b46116e018/1a291/azure_sprints.png 148w,
-/static/573f1b75a6364c9527f131b46116e018/2bc4a/azure_sprints.png 295w,
-/static/573f1b75a6364c9527f131b46116e018/fb8a0/azure_sprints.png 590w,
-/static/573f1b75a6364c9527f131b46116e018/526de/azure_sprints.png 885w,
-/static/573f1b75a6364c9527f131b46116e018/fa2eb/azure_sprints.png 1180w,
-/static/573f1b75a6364c9527f131b46116e018/2d756/azure_sprints.png 1612w&quot;
+        src=&quot;/static/573f1b75a6364c9527f131b46116e018/b9e4f/azure_sprints.png&quot;
+        srcset=&quot;/static/573f1b75a6364c9527f131b46116e018/cf440/azure_sprints.png 148w,
+/static/573f1b75a6364c9527f131b46116e018/d2d38/azure_sprints.png 295w,
+/static/573f1b75a6364c9527f131b46116e018/b9e4f/azure_sprints.png 590w,
+/static/573f1b75a6364c9527f131b46116e018/f9b6a/azure_sprints.png 885w,
+/static/573f1b75a6364c9527f131b46116e018/2d849/azure_sprints.png 1180w,
+/static/573f1b75a6364c9527f131b46116e018/a4ab0/azure_sprints.png 1612w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -180,7 +220,7 @@ Analyzing the above picture of backlogs of a project its clearly visible that ea
 The above picture shows the sprint1 of a project whose team name is posterpoint. Currently the team has only 2 tasks in the sprint. You can also notice on the right hand side top corner that the current tasks has no iteration date, which off-course is because its a demo. But you can easily set an interation data i.e the starting and the ending date for each task or issue.&lt;/p&gt;
 &lt;h3&gt;Queries&lt;/h3&gt;
 &lt;p&gt;It’s also known as the most powerful feature of Azure Boards. It helps you to find exactly what issue or task you want to track or monitor.&lt;/p&gt;
-&lt;p&gt;Getting started with Azure Boards is a simple and easy task. You can go on &lt;a href=&quot;https://dev.azure.com&quot;&gt;Azure Devops Portal&lt;/a&gt; and can start using it by simply making an account depending on your subscription. Companies like Apple, Microsoft and Google follow the Agile Software Development methodlogies because its an efficient way to make a software completely successful. You must be thinking at this moment that why there is a need of any Product Manager in a company when you have Azure Board or something similar to it which manages a workflow of the product. Well do some reasearch and answer yourself till then stay tuned.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Data Factory_The lake of Storage]]></title><description><![CDATA[Why Azure Data Factory Suppose you are running a huge company which has a huge database on-premise. Now to keep that data secure and safe…]]></description><link>https://nightwarrior-xxx.github.io//AzureDataFactory/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDataFactory/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why Azure Data Factory&lt;/h1&gt;
+&lt;p&gt;Getting started with Azure Boards is a simple and easy task. You can go on &lt;a href=&quot;https://dev.azure.com&quot;&gt;Azure Devops Portal&lt;/a&gt; and can start using it by simply making an account depending on your subscription. Companies like Apple, Microsoft and Google follow the Agile Software Development methodlogies because its an efficient way to make a software completely successful. You must be thinking at this moment that why there is a need of any Product Manager in a company when you have Azure Board or something similar to it which manages a workflow of the product. Well do some reasearch and answer yourself till then stay tuned.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Data Factory_The lake of Storage]]></title><description><![CDATA[Why Azure Data Factory Suppose you are running a huge company which has a huge database on-premise. Now to keep that data secure and safe…]]></description><link>https://nightwarrior-xxx.github.io/blog/AzureDataFactory/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/AzureDataFactory/</guid><pubDate>Sun, 07 Jul 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why Azure Data Factory&lt;/h1&gt;
 &lt;p&gt;Suppose you are running a huge company which has a huge database on-premise. Now to keep that data secure and safe you need to need to keep it somewhere where no one can harm it. So, if you are thinking to keep your database on cloud then you are thinking correct. But it isn’t that easy. You have to manage your database properly before uploading it to cloud.&lt;/p&gt;
 &lt;p&gt;Azure Data Factory will help you to automate this stuff or I should say orchestrate these tasks into a easy way.&lt;/p&gt;
 &lt;h2&gt;Data Factory&lt;/h2&gt;
@@ -188,27 +228,19 @@ The above picture shows the sprint1 of a project whose team name is posterpoint.
 Alternatively, it collects the data then transform it into various schemas and then makes it ready for publishing and monitoring.&lt;/p&gt;
 &lt;h2&gt;Data Factory Concepts&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;pipelines
-Considering the above example suppose your company has pushed the data into a cloud and its performing some activity on that data which is done in a pipeline.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;datasets
-Your companies data will be stored in a data structure which is known as datasets.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;linked services
-Now suppose your company have to push data to cloud and this obviously cannot be done with help of some magic. You will need a medium or an external service to upload that data to cloud. These tools are called linked service.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;activities
-Performing some action on data stored is known as activity.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;pipelines
+Considering the above example suppose your company has pushed the data into a cloud and its performing some activity on that data which is done in a pipeline.&lt;/li&gt;
+&lt;li&gt;datasets
+Your companies data will be stored in a data structure which is known as datasets.&lt;/li&gt;
+&lt;li&gt;linked services
+Now suppose your company have to push data to cloud and this obviously cannot be done with help of some magic. You will need a medium or an external service to upload that data to cloud. These tools are called linked service.&lt;/li&gt;
+&lt;li&gt;activities
+Performing some action on data stored is known as activity.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Data Lakes&lt;/h2&gt;
 &lt;p&gt;Data Lakes perform two-in-one task. It lets you to store data from all sources of any size and type and then help you to analyze that data with the help of various analytics tools.&lt;/p&gt;
 &lt;h2&gt;Data Warehouse&lt;/h2&gt;
-&lt;p&gt;Data is written in a structured format or in a particular form. You have to read that data in the form it is written. It uses SQl to query your data.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure DevOps_A developers friend who also do operations]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io//AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
+&lt;p&gt;Data is written in a structured format or in a particular form. You have to read that data in the form it is written. It uses SQl to query your data.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure DevOps_A developers friend who also do operations]]></title><description><![CDATA[Azure Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications. What is…]]></description><link>https://nightwarrior-xxx.github.io/blog/AzureDevOps/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/AzureDevOps/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h2&gt;Azure&lt;/h2&gt;
 &lt;p&gt;Azure is a collection of cloud services which developers and IT professional can use to develop and deploy applications.&lt;/p&gt;
 &lt;h3&gt;What is DevOps ?&lt;/h3&gt;
 &lt;p&gt;DevOps is a integration of Development and Operations teams in order to improve collaboration and productivity. This is done by automating workflows and productivity.
@@ -226,7 +258,7 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/986ed/azure_pipeline.png&quot;
+    href=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/d213f/azure_pipeline.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -245,9 +277,9 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Pipeline&quot;
         title=&quot;&quot;
-        src=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/986ed/azure_pipeline.png&quot;
-        srcset=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/ccfbf/azure_pipeline.png 148w,
-/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/986ed/azure_pipeline.png 184w&quot;
+        src=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/d213f/azure_pipeline.png&quot;
+        srcset=&quot;/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/cf440/azure_pipeline.png 148w,
+/static/1a1fb8ba36f2bfa43f95ba69e8ca2054/d213f/azure_pipeline.png 184w&quot;
         sizes=&quot;(max-width: 184px) 100vw, 184px&quot;
       /&gt;
     &lt;/span&gt;
@@ -260,7 +292,7 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/67599b21a909832546fe8031a571fbd9/440ab/azure_boards.png&quot;
+    href=&quot;/static/67599b21a909832546fe8031a571fbd9/926fe/azure_boards.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -279,9 +311,9 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Boards&quot;
         title=&quot;&quot;
-        src=&quot;/static/67599b21a909832546fe8031a571fbd9/440ab/azure_boards.png&quot;
-        srcset=&quot;/static/67599b21a909832546fe8031a571fbd9/db4c3/azure_boards.png 148w,
-/static/67599b21a909832546fe8031a571fbd9/440ab/azure_boards.png 207w&quot;
+        src=&quot;/static/67599b21a909832546fe8031a571fbd9/926fe/azure_boards.png&quot;
+        srcset=&quot;/static/67599b21a909832546fe8031a571fbd9/cf440/azure_boards.png 148w,
+/static/67599b21a909832546fe8031a571fbd9/926fe/azure_boards.png 207w&quot;
         sizes=&quot;(max-width: 207px) 100vw, 207px&quot;
       /&gt;
     &lt;/span&gt;
@@ -294,7 +326,7 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b6048e4bdc3b710155d852aac72cda89/f0cf0/azure_artificats.png&quot;
+    href=&quot;/static/b6048e4bdc3b710155d852aac72cda89/3bcdc/azure_artificats.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -313,9 +345,9 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Aritifcats&quot;
         title=&quot;&quot;
-        src=&quot;/static/b6048e4bdc3b710155d852aac72cda89/f0cf0/azure_artificats.png&quot;
-        srcset=&quot;/static/b6048e4bdc3b710155d852aac72cda89/1d108/azure_artificats.png 148w,
-/static/b6048e4bdc3b710155d852aac72cda89/f0cf0/azure_artificats.png 276w&quot;
+        src=&quot;/static/b6048e4bdc3b710155d852aac72cda89/3bcdc/azure_artificats.png&quot;
+        srcset=&quot;/static/b6048e4bdc3b710155d852aac72cda89/cf440/azure_artificats.png 148w,
+/static/b6048e4bdc3b710155d852aac72cda89/3bcdc/azure_artificats.png 276w&quot;
         sizes=&quot;(max-width: 276px) 100vw, 276px&quot;
       /&gt;
     &lt;/span&gt;
@@ -328,7 +360,7 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/7e9bc/azure_repos.png&quot;
+    href=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/67a95/azure_repos.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -347,9 +379,9 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Repos&quot;
         title=&quot;&quot;
-        src=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/7e9bc/azure_repos.png&quot;
-        srcset=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/7413b/azure_repos.png 148w,
-/static/de61b85f67f91a3691e32b5c0a1a3962/7e9bc/azure_repos.png 190w&quot;
+        src=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/67a95/azure_repos.png&quot;
+        srcset=&quot;/static/de61b85f67f91a3691e32b5c0a1a3962/cf440/azure_repos.png 148w,
+/static/de61b85f67f91a3691e32b5c0a1a3962/67a95/azure_repos.png 190w&quot;
         sizes=&quot;(max-width: 190px) 100vw, 190px&quot;
       /&gt;
     &lt;/span&gt;
@@ -362,7 +394,7 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/3b993/azure_testplan.png&quot;
+    href=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/6d450/azure_testplan.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -381,9 +413,9 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Test Plans&quot;
         title=&quot;&quot;
-        src=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/3b993/azure_testplan.png&quot;
-        srcset=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/f6ebb/azure_testplan.png 148w,
-/static/72225b1ab4c057e3ac085e9bc0ff84ad/3b993/azure_testplan.png 228w&quot;
+        src=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/6d450/azure_testplan.png&quot;
+        srcset=&quot;/static/72225b1ab4c057e3ac085e9bc0ff84ad/cf440/azure_testplan.png 148w,
+/static/72225b1ab4c057e3ac085e9bc0ff84ad/6d450/azure_testplan.png 228w&quot;
         sizes=&quot;(max-width: 228px) 100vw, 228px&quot;
       /&gt;
     &lt;/span&gt;
@@ -392,13 +424,13 @@ Alternatively, DevOps is a set of practices to reduce the time between the commi
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;It is a complete toolkit which provides end-to-end and manual testing ensuring your software is working just fine.&lt;/p&gt;
-&lt;p&gt;This is just a small blog post on Azure Devops. I will be back with a bigger one till then stay tuned !! &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Storage_A friend who rents his space]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://nightwarrior-xxx.github.io//AzureStorage/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//AzureStorage/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
+&lt;p&gt;This is just a small blog post on Azure Devops. I will be back with a bigger one till then stay tuned !! &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Storage_A friend who rents his space]]></title><description><![CDATA[Why storage Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for…]]></description><link>https://nightwarrior-xxx.github.io/blog/AzureStorage/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/AzureStorage/</guid><pubDate>Mon, 24 Jun 2019 20:26:33 GMT</pubDate><content:encoded>&lt;h1&gt;Why storage&lt;/h1&gt;
 &lt;p&gt;Suppose you have a image processing website . You don’t want your website to function slowly. So you have a backend servers for that. You also don’t want your backend server to fail if number of process increases. In order to conquer this you make a storage account that stores processes and then you distribute those all processes equally in backend servers.
 After processing those all data should be now store somewhere so you need a storage for that also. &lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6a3188f4a08fac922386f986bea688cf/2b649/why_storage.png&quot;
+    href=&quot;/static/6a3188f4a08fac922386f986bea688cf/94a55/why_storage.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -417,11 +449,11 @@ After processing those all data should be now store somewhere so you need a stor
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Why_storage&quot;
         title=&quot;&quot;
-        src=&quot;/static/6a3188f4a08fac922386f986bea688cf/fb8a0/why_storage.png&quot;
-        srcset=&quot;/static/6a3188f4a08fac922386f986bea688cf/1a291/why_storage.png 148w,
-/static/6a3188f4a08fac922386f986bea688cf/2bc4a/why_storage.png 295w,
-/static/6a3188f4a08fac922386f986bea688cf/fb8a0/why_storage.png 590w,
-/static/6a3188f4a08fac922386f986bea688cf/2b649/why_storage.png 681w&quot;
+        src=&quot;/static/6a3188f4a08fac922386f986bea688cf/b9e4f/why_storage.png&quot;
+        srcset=&quot;/static/6a3188f4a08fac922386f986bea688cf/cf440/why_storage.png 148w,
+/static/6a3188f4a08fac922386f986bea688cf/d2d38/why_storage.png 295w,
+/static/6a3188f4a08fac922386f986bea688cf/b9e4f/why_storage.png 590w,
+/static/6a3188f4a08fac922386f986bea688cf/94a55/why_storage.png 681w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -479,31 +511,23 @@ These types of storage account includes the following two divisions:-&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;StorageV2(general purpose V2)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;It incorporates all features of general purpose V1 and blob storage account(we will study it in sometime.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;When you want low per giga byte speed you can go for this.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;It incorporates all features of general purpose V1 and blob storage account(we will study it in sometime.)&lt;/li&gt;
+&lt;li&gt;When you want low per giga byte speed you can go for this.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Support Access Tiers
 Access tiers are classified based upon the how frequently you want to use your data. These are classified as below.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Hot
-Optimised for data that is stored and accessed frequently.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cold
-Optimised for data that is accessed infrequently and stored for atleast 30 days.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Hot
+Optimised for data that is stored and accessed frequently.&lt;/li&gt;
+&lt;li&gt;Cold
+Optimised for data that is accessed infrequently and stored for atleast 30 days.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Archive
 Optimised for data that is that is hardly accessed and stored for atleast 180 days.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png&quot;
+    href=&quot;/static/acaece6e84141972b6fd935d1a86ef00/23b3b/access_tiers.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -522,9 +546,9 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;access_tiers&quot;
         title=&quot;&quot;
-        src=&quot;/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png&quot;
-        srcset=&quot;/static/acaece6e84141972b6fd935d1a86ef00/5f2d1/access_tiers.png 148w,
-/static/acaece6e84141972b6fd935d1a86ef00/84875/access_tiers.png 172w&quot;
+        src=&quot;/static/acaece6e84141972b6fd935d1a86ef00/23b3b/access_tiers.png&quot;
+        srcset=&quot;/static/acaece6e84141972b6fd935d1a86ef00/cf440/access_tiers.png 148w,
+/static/acaece6e84141972b6fd935d1a86ef00/23b3b/access_tiers.png 172w&quot;
         sizes=&quot;(max-width: 172px) 100vw, 172px&quot;
       /&gt;
     &lt;/span&gt;
@@ -549,7 +573,7 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png&quot;
+    href=&quot;/static/4aa322b44b178ebfe128f4621f656d20/1ee5b/azure_storage.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -568,10 +592,10 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure_storage&quot;
         title=&quot;&quot;
-        src=&quot;/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png&quot;
-        srcset=&quot;/static/4aa322b44b178ebfe128f4621f656d20/7e0e9/azure_storage.png 148w,
-/static/4aa322b44b178ebfe128f4621f656d20/e2ac6/azure_storage.png 295w,
-/static/4aa322b44b178ebfe128f4621f656d20/5436a/azure_storage.png 470w&quot;
+        src=&quot;/static/4aa322b44b178ebfe128f4621f656d20/1ee5b/azure_storage.png&quot;
+        srcset=&quot;/static/4aa322b44b178ebfe128f4621f656d20/cf440/azure_storage.png 148w,
+/static/4aa322b44b178ebfe128f4621f656d20/d2d38/azure_storage.png 295w,
+/static/4aa322b44b178ebfe128f4621f656d20/1ee5b/azure_storage.png 470w&quot;
         sizes=&quot;(max-width: 470px) 100vw, 470px&quot;
       /&gt;
     &lt;/span&gt;
@@ -600,7 +624,7 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png&quot;
+    href=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/50336/replications.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -619,10 +643,10 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;replications&quot;
         title=&quot;&quot;
-        src=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png&quot;
-        srcset=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/88ceb/replications.png 148w,
-/static/dd90ed29b7538b2012eb1e881ca170a2/45f49/replications.png 295w,
-/static/dd90ed29b7538b2012eb1e881ca170a2/35c8f/replications.png 541w&quot;
+        src=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/50336/replications.png&quot;
+        srcset=&quot;/static/dd90ed29b7538b2012eb1e881ca170a2/cf440/replications.png 148w,
+/static/dd90ed29b7538b2012eb1e881ca170a2/d2d38/replications.png 295w,
+/static/dd90ed29b7538b2012eb1e881ca170a2/50336/replications.png 541w&quot;
         sizes=&quot;(max-width: 541px) 100vw, 541px&quot;
       /&gt;
     &lt;/span&gt;
@@ -638,23 +662,17 @@ Optimised for data that is that is hardly accessed and stored for atleast 180 da
 &lt;p&gt;Now suppose you want to storage images after processing images for your image processing website, so can use the following access tiers available in Azure Blob Service.&lt;/p&gt;
 &lt;p&gt;There are 3 public access levels&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Private
-Files can be accessed by only this owner.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Blob
-Files can be accessed by others inside this container.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Container
-If there is a folder inside this container that also can be accessed.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Private
+Files can be accessed by only this owner.&lt;/li&gt;
+&lt;li&gt;Blob
+Files can be accessed by others inside this container.&lt;/li&gt;
+&lt;li&gt;Container
+If there is a folder inside this container that also can be accessed.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png&quot;
+    href=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/ed75b/container.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -673,10 +691,10 @@ If there is a folder inside this container that also can be accessed.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;containers&quot;
         title=&quot;&quot;
-        src=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png&quot;
-        srcset=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/2689b/container.png 148w,
-/static/72fe2e7918c897dfc9448b3cff80fdad/08022/container.png 295w,
-/static/72fe2e7918c897dfc9448b3cff80fdad/67071/container.png 574w&quot;
+        src=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/ed75b/container.png&quot;
+        srcset=&quot;/static/72fe2e7918c897dfc9448b3cff80fdad/cf440/container.png 148w,
+/static/72fe2e7918c897dfc9448b3cff80fdad/d2d38/container.png 295w,
+/static/72fe2e7918c897dfc9448b3cff80fdad/ed75b/container.png 574w&quot;
         sizes=&quot;(max-width: 574px) 100vw, 574px&quot;
       /&gt;
     &lt;/span&gt;
@@ -693,7 +711,7 @@ block_blob_service.create_container(&amp;#39;test&amp;#39;)&lt;/code&gt;&lt;/pre
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/cde58/azure_blob_create.png&quot;
+    href=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/51c08/azure_blob_create.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -712,13 +730,13 @@ block_blob_service.create_container(&amp;#39;test&amp;#39;)&lt;/code&gt;&lt;/pre
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Blob Create&quot;
         title=&quot;&quot;
-        src=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/fb8a0/azure_blob_create.png&quot;
-        srcset=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/1a291/azure_blob_create.png 148w,
-/static/c7f71527c0b71ec19925593bff8f4eeb/2bc4a/azure_blob_create.png 295w,
-/static/c7f71527c0b71ec19925593bff8f4eeb/fb8a0/azure_blob_create.png 590w,
-/static/c7f71527c0b71ec19925593bff8f4eeb/526de/azure_blob_create.png 885w,
-/static/c7f71527c0b71ec19925593bff8f4eeb/fa2eb/azure_blob_create.png 1180w,
-/static/c7f71527c0b71ec19925593bff8f4eeb/cde58/azure_blob_create.png 1592w&quot;
+        src=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/b9e4f/azure_blob_create.png&quot;
+        srcset=&quot;/static/c7f71527c0b71ec19925593bff8f4eeb/cf440/azure_blob_create.png 148w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/d2d38/azure_blob_create.png 295w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/b9e4f/azure_blob_create.png 590w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/f9b6a/azure_blob_create.png 885w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/2d849/azure_blob_create.png 1180w,
+/static/c7f71527c0b71ec19925593bff8f4eeb/51c08/azure_blob_create.png 1592w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -735,7 +753,7 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/9bbbd/azure_blob_upload.png&quot;
+    href=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/e95bd/azure_blob_upload.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -754,13 +772,13 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Upload blob ot container&quot;
         title=&quot;&quot;
-        src=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/fb8a0/azure_blob_upload.png&quot;
-        srcset=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/1a291/azure_blob_upload.png 148w,
-/static/522c64bccf6d0f1ded2c428a99f347c3/2bc4a/azure_blob_upload.png 295w,
-/static/522c64bccf6d0f1ded2c428a99f347c3/fb8a0/azure_blob_upload.png 590w,
-/static/522c64bccf6d0f1ded2c428a99f347c3/526de/azure_blob_upload.png 885w,
-/static/522c64bccf6d0f1ded2c428a99f347c3/fa2eb/azure_blob_upload.png 1180w,
-/static/522c64bccf6d0f1ded2c428a99f347c3/9bbbd/azure_blob_upload.png 1586w&quot;
+        src=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/b9e4f/azure_blob_upload.png&quot;
+        srcset=&quot;/static/522c64bccf6d0f1ded2c428a99f347c3/cf440/azure_blob_upload.png 148w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/d2d38/azure_blob_upload.png 295w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/b9e4f/azure_blob_upload.png 590w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/f9b6a/azure_blob_upload.png 885w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/2d849/azure_blob_upload.png 1180w,
+/static/522c64bccf6d0f1ded2c428a99f347c3/e95bd/azure_blob_upload.png 1586w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -773,7 +791,7 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/28d661f3e50855bcdb563c1016fe7596/2d89f/azure_blob_download.png&quot;
+    href=&quot;/static/28d661f3e50855bcdb563c1016fe7596/1002f/azure_blob_download.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -792,13 +810,13 @@ block_blob_service.create_blob_from_path(&amp;#39;&amp;lt;container_name&amp;gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Download Blob&quot;
         title=&quot;&quot;
-        src=&quot;/static/28d661f3e50855bcdb563c1016fe7596/fb8a0/azure_blob_download.png&quot;
-        srcset=&quot;/static/28d661f3e50855bcdb563c1016fe7596/1a291/azure_blob_download.png 148w,
-/static/28d661f3e50855bcdb563c1016fe7596/2bc4a/azure_blob_download.png 295w,
-/static/28d661f3e50855bcdb563c1016fe7596/fb8a0/azure_blob_download.png 590w,
-/static/28d661f3e50855bcdb563c1016fe7596/526de/azure_blob_download.png 885w,
-/static/28d661f3e50855bcdb563c1016fe7596/fa2eb/azure_blob_download.png 1180w,
-/static/28d661f3e50855bcdb563c1016fe7596/2d89f/azure_blob_download.png 1298w&quot;
+        src=&quot;/static/28d661f3e50855bcdb563c1016fe7596/b9e4f/azure_blob_download.png&quot;
+        srcset=&quot;/static/28d661f3e50855bcdb563c1016fe7596/cf440/azure_blob_download.png 148w,
+/static/28d661f3e50855bcdb563c1016fe7596/d2d38/azure_blob_download.png 295w,
+/static/28d661f3e50855bcdb563c1016fe7596/b9e4f/azure_blob_download.png 590w,
+/static/28d661f3e50855bcdb563c1016fe7596/f9b6a/azure_blob_download.png 885w,
+/static/28d661f3e50855bcdb563c1016fe7596/2d849/azure_blob_download.png 1180w,
+/static/28d661f3e50855bcdb563c1016fe7596/1002f/azure_blob_download.png 1298w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -812,7 +830,7 @@ Suppose you want to store queries send my the users of your image processing web
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/aa207/azure_queue.png&quot;
+    href=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/54e1c/azure_queue.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -831,13 +849,13 @@ Suppose you want to store queries send my the users of your image processing web
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Queue&quot;
         title=&quot;&quot;
-        src=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/fb8a0/azure_queue.png&quot;
-        srcset=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/1a291/azure_queue.png 148w,
-/static/3ba5c3930b2973bb4ae88ce162a8db45/2bc4a/azure_queue.png 295w,
-/static/3ba5c3930b2973bb4ae88ce162a8db45/fb8a0/azure_queue.png 590w,
-/static/3ba5c3930b2973bb4ae88ce162a8db45/526de/azure_queue.png 885w,
-/static/3ba5c3930b2973bb4ae88ce162a8db45/fa2eb/azure_queue.png 1180w,
-/static/3ba5c3930b2973bb4ae88ce162a8db45/aa207/azure_queue.png 1358w&quot;
+        src=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/b9e4f/azure_queue.png&quot;
+        srcset=&quot;/static/3ba5c3930b2973bb4ae88ce162a8db45/cf440/azure_queue.png 148w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/d2d38/azure_queue.png 295w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/b9e4f/azure_queue.png 590w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/f9b6a/azure_queue.png 885w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/2d849/azure_queue.png 1180w,
+/static/3ba5c3930b2973bb4ae88ce162a8db45/54e1c/azure_queue.png 1358w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -852,9 +870,7 @@ Suppose you want to store queries send my the users of your image processing web
 &lt;p&gt;Install the azure storage python library&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install azure-storage&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Import the serivces and send the message&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Import the serivces and send the message&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.storage.queue import QueueService
 
@@ -864,7 +880,7 @@ queue_service.put_messages(&amp;#39;test&amp;#39;, &amp;#39;&amp;lt;message&amp;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/6a24b/azure_queue_example.png&quot;
+    href=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/4b9c3/azure_queue_example.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -883,13 +899,13 @@ queue_service.put_messages(&amp;#39;test&amp;#39;, &amp;#39;&amp;lt;message&amp;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Example&quot;
         title=&quot;&quot;
-        src=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/fb8a0/azure_queue_example.png&quot;
-        srcset=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/1a291/azure_queue_example.png 148w,
-/static/006cb77e26c36b8c89eb0107512b7ab7/2bc4a/azure_queue_example.png 295w,
-/static/006cb77e26c36b8c89eb0107512b7ab7/fb8a0/azure_queue_example.png 590w,
-/static/006cb77e26c36b8c89eb0107512b7ab7/526de/azure_queue_example.png 885w,
-/static/006cb77e26c36b8c89eb0107512b7ab7/fa2eb/azure_queue_example.png 1180w,
-/static/006cb77e26c36b8c89eb0107512b7ab7/6a24b/azure_queue_example.png 1357w&quot;
+        src=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/b9e4f/azure_queue_example.png&quot;
+        srcset=&quot;/static/006cb77e26c36b8c89eb0107512b7ab7/cf440/azure_queue_example.png 148w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/d2d38/azure_queue_example.png 295w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/b9e4f/azure_queue_example.png 590w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/f9b6a/azure_queue_example.png 885w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/2d849/azure_queue_example.png 1180w,
+/static/006cb77e26c36b8c89eb0107512b7ab7/4b9c3/azure_queue_example.png 1357w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -911,7 +927,7 @@ for msg in messages:
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/a6b5f/azure_storage_queue_delete.png&quot;
+    href=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/993a7/azure_storage_queue_delete.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -930,11 +946,11 @@ for msg in messages:
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Azure Storage Delete&quot;
         title=&quot;&quot;
-        src=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/fb8a0/azure_storage_queue_delete.png&quot;
-        srcset=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/1a291/azure_storage_queue_delete.png 148w,
-/static/3a947b45d5a9f2be0e65c41d7feb0dc1/2bc4a/azure_storage_queue_delete.png 295w,
-/static/3a947b45d5a9f2be0e65c41d7feb0dc1/fb8a0/azure_storage_queue_delete.png 590w,
-/static/3a947b45d5a9f2be0e65c41d7feb0dc1/a6b5f/azure_storage_queue_delete.png 788w&quot;
+        src=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/b9e4f/azure_storage_queue_delete.png&quot;
+        srcset=&quot;/static/3a947b45d5a9f2be0e65c41d7feb0dc1/cf440/azure_storage_queue_delete.png 148w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/d2d38/azure_storage_queue_delete.png 295w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/b9e4f/azure_storage_queue_delete.png 590w,
+/static/3a947b45d5a9f2be0e65c41d7feb0dc1/993a7/azure_storage_queue_delete.png 788w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -951,16 +967,14 @@ for msg in messages:
 &lt;p&gt;Install python package for Azure CosmosDB table&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install azure-cosmosdb-table&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;import table service and entity class&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;import table service and entity class&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from azure.cosmosdb.table.tableservice import TableService
 from azure.cosmosdb.table.model import Entity&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/550b9847858aed69d611b9cf60d97ae6/669ef/t1.png&quot;
+    href=&quot;/static/550b9847858aed69d611b9cf60d97ae6/f1147/t1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -979,11 +993,11 @@ from azure.cosmosdb.table.model import Entity&lt;/code&gt;&lt;/pre&gt;&lt;/div&g
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;table&quot;
         title=&quot;&quot;
-        src=&quot;/static/550b9847858aed69d611b9cf60d97ae6/fb8a0/t1.png&quot;
-        srcset=&quot;/static/550b9847858aed69d611b9cf60d97ae6/1a291/t1.png 148w,
-/static/550b9847858aed69d611b9cf60d97ae6/2bc4a/t1.png 295w,
-/static/550b9847858aed69d611b9cf60d97ae6/fb8a0/t1.png 590w,
-/static/550b9847858aed69d611b9cf60d97ae6/669ef/t1.png 626w&quot;
+        src=&quot;/static/550b9847858aed69d611b9cf60d97ae6/b9e4f/t1.png&quot;
+        srcset=&quot;/static/550b9847858aed69d611b9cf60d97ae6/cf440/t1.png 148w,
+/static/550b9847858aed69d611b9cf60d97ae6/d2d38/t1.png 295w,
+/static/550b9847858aed69d611b9cf60d97ae6/b9e4f/t1.png 590w,
+/static/550b9847858aed69d611b9cf60d97ae6/f1147/t1.png 626w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -997,7 +1011,7 @@ Entities having same PartitionKey are stored on the same node. RowKey are used a
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/07067/table3.png&quot;
+    href=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/e3c01/table3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1016,13 +1030,13 @@ Entities having same PartitionKey are stored on the same node. RowKey are used a
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;add table&quot;
         title=&quot;&quot;
-        src=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/fb8a0/table3.png&quot;
-        srcset=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/1a291/table3.png 148w,
-/static/1b86b1f8d50f2c7cc90cbecda117795c/2bc4a/table3.png 295w,
-/static/1b86b1f8d50f2c7cc90cbecda117795c/fb8a0/table3.png 590w,
-/static/1b86b1f8d50f2c7cc90cbecda117795c/526de/table3.png 885w,
-/static/1b86b1f8d50f2c7cc90cbecda117795c/fa2eb/table3.png 1180w,
-/static/1b86b1f8d50f2c7cc90cbecda117795c/07067/table3.png 1224w&quot;
+        src=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/b9e4f/table3.png&quot;
+        srcset=&quot;/static/1b86b1f8d50f2c7cc90cbecda117795c/cf440/table3.png 148w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/d2d38/table3.png 295w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/b9e4f/table3.png 590w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/f9b6a/table3.png 885w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/2d849/table3.png 1180w,
+/static/1b86b1f8d50f2c7cc90cbecda117795c/e3c01/table3.png 1224w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1031,7 +1045,7 @@ Entities having same PartitionKey are stored on the same node. RowKey are used a
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;In this way you can simple use the Azure Cosmosdb.&lt;/p&gt;
-&lt;p&gt;Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as  Tor relays . Since…]]></description><link>https://nightwarrior-xxx.github.io//ConnectingToTor/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//ConnectingToTor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
+&lt;p&gt;Learning how to use Azure is a complicated task as Azure is bringing new stuff every day. So you need to keep yourself updated to move with Azure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connecting to Tor]]></title><description><![CDATA[Tor is a web browser for anonymous browsing, accessing dark web and much more. Bridging in Tor Bridges are also known as Tor relays. Since…]]></description><link>https://nightwarrior-xxx.github.io/blog/ConnectingToTor/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/ConnectingToTor/</guid><pubDate>Sat, 25 May 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;Tor is a web browser for anonymous browsing, accessing dark web and much more.&lt;/p&gt;
 &lt;h2&gt;Bridging in Tor&lt;/h2&gt;
 &lt;p&gt;Bridges are also known as &lt;em&gt;Tor relays&lt;/em&gt;. Since there is no complete public list of Tor bridges the number of bridges that Tor runs are uncountable. That means if your ISP is tracking you and trying to filter your connections, he can’t block all the Tor relays. In case if you are blocked from getting connected to Tor network, this is where Tor bridges comes into play. Tor bridges not only helps you to connect to Tor network but it keeps your privacy safe and secure. Do try connecting to Tor network without using bridges in case it worked then it’s well and good.&lt;/p&gt;
 &lt;p&gt;Over the last few years ISPs have found ways of blocking client from connecting to Tor network. They have detectors which stops the flow of traffic when they detect Tor traffic. To conquer this problem Tor has introduced a concept of &lt;strong&gt;pluggable transport&lt;/strong&gt; which manipulates the traffic between client and first hop of Tor relay thus nullfying the chances of blocking you from Tor network.
@@ -1039,7 +1053,7 @@ Bridges with pluggable transports can be easily use to browse Tor. Tor provides 
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c7fa7b06f92efcf3887ab7fc863fd69d/64e79/tor-default.png&quot;
+    href=&quot;/static/c7fa7b06f92efcf3887ab7fc863fd69d/857ee/tor-default.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1058,11 +1072,11 @@ Bridges with pluggable transports can be easily use to browse Tor. Tor provides 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Tor-default-image&quot;
         title=&quot;&quot;
-        src=&quot;/static/c7fa7b06f92efcf3887ab7fc863fd69d/fb8a0/tor-default.png&quot;
-        srcset=&quot;/static/c7fa7b06f92efcf3887ab7fc863fd69d/1a291/tor-default.png 148w,
-/static/c7fa7b06f92efcf3887ab7fc863fd69d/2bc4a/tor-default.png 295w,
-/static/c7fa7b06f92efcf3887ab7fc863fd69d/fb8a0/tor-default.png 590w,
-/static/c7fa7b06f92efcf3887ab7fc863fd69d/64e79/tor-default.png 624w&quot;
+        src=&quot;/static/c7fa7b06f92efcf3887ab7fc863fd69d/b9e4f/tor-default.png&quot;
+        srcset=&quot;/static/c7fa7b06f92efcf3887ab7fc863fd69d/cf440/tor-default.png 148w,
+/static/c7fa7b06f92efcf3887ab7fc863fd69d/d2d38/tor-default.png 295w,
+/static/c7fa7b06f92efcf3887ab7fc863fd69d/b9e4f/tor-default.png 590w,
+/static/c7fa7b06f92efcf3887ab7fc863fd69d/857ee/tor-default.png 624w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1074,7 +1088,7 @@ Bridges with pluggable transports can be easily use to browse Tor. Tor provides 
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/22b184dd523363088a2315b0214d0bef/02b2c/options.png&quot;
+    href=&quot;/static/22b184dd523363088a2315b0214d0bef/0794e/options.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1093,11 +1107,11 @@ Bridges with pluggable transports can be easily use to browse Tor. Tor provides 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Tor-connect-options&quot;
         title=&quot;&quot;
-        src=&quot;/static/22b184dd523363088a2315b0214d0bef/fb8a0/options.png&quot;
-        srcset=&quot;/static/22b184dd523363088a2315b0214d0bef/1a291/options.png 148w,
-/static/22b184dd523363088a2315b0214d0bef/2bc4a/options.png 295w,
-/static/22b184dd523363088a2315b0214d0bef/fb8a0/options.png 590w,
-/static/22b184dd523363088a2315b0214d0bef/02b2c/options.png 617w&quot;
+        src=&quot;/static/22b184dd523363088a2315b0214d0bef/b9e4f/options.png&quot;
+        srcset=&quot;/static/22b184dd523363088a2315b0214d0bef/cf440/options.png 148w,
+/static/22b184dd523363088a2315b0214d0bef/d2d38/options.png 295w,
+/static/22b184dd523363088a2315b0214d0bef/b9e4f/options.png 590w,
+/static/22b184dd523363088a2315b0214d0bef/0794e/options.png 617w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1109,7 +1123,7 @@ Bridges with pluggable transports can be easily use to browse Tor. Tor provides 
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a64d8864030f949fa501c0bb77218587/aa5e8/proxy.png&quot;
+    href=&quot;/static/a64d8864030f949fa501c0bb77218587/54ef9/proxy.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1128,11 +1142,11 @@ Bridges with pluggable transports can be easily use to browse Tor. Tor provides 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Tor-connect-proxy-option&quot;
         title=&quot;&quot;
-        src=&quot;/static/a64d8864030f949fa501c0bb77218587/fb8a0/proxy.png&quot;
-        srcset=&quot;/static/a64d8864030f949fa501c0bb77218587/1a291/proxy.png 148w,
-/static/a64d8864030f949fa501c0bb77218587/2bc4a/proxy.png 295w,
-/static/a64d8864030f949fa501c0bb77218587/fb8a0/proxy.png 590w,
-/static/a64d8864030f949fa501c0bb77218587/aa5e8/proxy.png 623w&quot;
+        src=&quot;/static/a64d8864030f949fa501c0bb77218587/b9e4f/proxy.png&quot;
+        srcset=&quot;/static/a64d8864030f949fa501c0bb77218587/cf440/proxy.png 148w,
+/static/a64d8864030f949fa501c0bb77218587/d2d38/proxy.png 295w,
+/static/a64d8864030f949fa501c0bb77218587/b9e4f/proxy.png 590w,
+/static/a64d8864030f949fa501c0bb77218587/54ef9/proxy.png 623w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1145,7 +1159,7 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4f7f57b2708ded85362f0d31538524ae/1c2a9/sensor.png&quot;
+    href=&quot;/static/4f7f57b2708ded85362f0d31538524ae/d51e0/sensor.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1164,11 +1178,11 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Tor-censored&quot;
         title=&quot;&quot;
-        src=&quot;/static/4f7f57b2708ded85362f0d31538524ae/fb8a0/sensor.png&quot;
-        srcset=&quot;/static/4f7f57b2708ded85362f0d31538524ae/1a291/sensor.png 148w,
-/static/4f7f57b2708ded85362f0d31538524ae/2bc4a/sensor.png 295w,
-/static/4f7f57b2708ded85362f0d31538524ae/fb8a0/sensor.png 590w,
-/static/4f7f57b2708ded85362f0d31538524ae/1c2a9/sensor.png 614w&quot;
+        src=&quot;/static/4f7f57b2708ded85362f0d31538524ae/b9e4f/sensor.png&quot;
+        srcset=&quot;/static/4f7f57b2708ded85362f0d31538524ae/cf440/sensor.png 148w,
+/static/4f7f57b2708ded85362f0d31538524ae/d2d38/sensor.png 295w,
+/static/4f7f57b2708ded85362f0d31538524ae/b9e4f/sensor.png 590w,
+/static/4f7f57b2708ded85362f0d31538524ae/d51e0/sensor.png 614w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1180,7 +1194,7 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/781ed17d44ac7a07ac4afedb0beee3ba/02b2c/default-bridge.png&quot;
+    href=&quot;/static/781ed17d44ac7a07ac4afedb0beee3ba/0794e/default-bridge.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1199,11 +1213,11 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Tor-deafult-bridges&quot;
         title=&quot;&quot;
-        src=&quot;/static/781ed17d44ac7a07ac4afedb0beee3ba/fb8a0/default-bridge.png&quot;
-        srcset=&quot;/static/781ed17d44ac7a07ac4afedb0beee3ba/1a291/default-bridge.png 148w,
-/static/781ed17d44ac7a07ac4afedb0beee3ba/2bc4a/default-bridge.png 295w,
-/static/781ed17d44ac7a07ac4afedb0beee3ba/fb8a0/default-bridge.png 590w,
-/static/781ed17d44ac7a07ac4afedb0beee3ba/02b2c/default-bridge.png 617w&quot;
+        src=&quot;/static/781ed17d44ac7a07ac4afedb0beee3ba/b9e4f/default-bridge.png&quot;
+        srcset=&quot;/static/781ed17d44ac7a07ac4afedb0beee3ba/cf440/default-bridge.png 148w,
+/static/781ed17d44ac7a07ac4afedb0beee3ba/d2d38/default-bridge.png 295w,
+/static/781ed17d44ac7a07ac4afedb0beee3ba/b9e4f/default-bridge.png 590w,
+/static/781ed17d44ac7a07ac4afedb0beee3ba/0794e/default-bridge.png 617w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1223,7 +1237,7 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5eabe6100a2c03efdaca00a601953d4c/de96f/request-bridge.png&quot;
+    href=&quot;/static/5eabe6100a2c03efdaca00a601953d4c/4ec03/request-bridge.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1242,11 +1256,11 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Request-bridge&quot;
         title=&quot;&quot;
-        src=&quot;/static/5eabe6100a2c03efdaca00a601953d4c/fb8a0/request-bridge.png&quot;
-        srcset=&quot;/static/5eabe6100a2c03efdaca00a601953d4c/1a291/request-bridge.png 148w,
-/static/5eabe6100a2c03efdaca00a601953d4c/2bc4a/request-bridge.png 295w,
-/static/5eabe6100a2c03efdaca00a601953d4c/fb8a0/request-bridge.png 590w,
-/static/5eabe6100a2c03efdaca00a601953d4c/de96f/request-bridge.png 616w&quot;
+        src=&quot;/static/5eabe6100a2c03efdaca00a601953d4c/b9e4f/request-bridge.png&quot;
+        srcset=&quot;/static/5eabe6100a2c03efdaca00a601953d4c/cf440/request-bridge.png 148w,
+/static/5eabe6100a2c03efdaca00a601953d4c/d2d38/request-bridge.png 295w,
+/static/5eabe6100a2c03efdaca00a601953d4c/b9e4f/request-bridge.png 590w,
+/static/5eabe6100a2c03efdaca00a601953d4c/4ec03/request-bridge.png 616w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1258,12 +1272,12 @@ If Tor is censored in your country choose the first option &lt;em&gt;Tor is cens
 &lt;a href=&quot;https://bridges.torproject.org/options&quot;&gt;Tor Bridge&lt;/a&gt; where Tor has provide another facility of obtaining bridges. Select the type of bridge you want, verify captcha and Tor will provide you a bridge which you can use to connect to Tor network.&lt;/p&gt;
 &lt;p&gt;Tor is open source and provide these pluggable transport to achieve anonymous communication for free. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Adding powerline to your Shell]]></title><description><![CDATA[This is how your current terminal looks like 
  Now with some awesome tricks you can change it too
- Step 1 Install   and  .
-For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Powerline/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//Powerline/</guid><pubDate>Thu, 21 Mar 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;This is how your current terminal looks like
+ Step 1 Install  and .
+For Debian based…]]></description><link>https://nightwarrior-xxx.github.io/blog/Powerline/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/Powerline/</guid><pubDate>Thu, 21 Mar 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;This is how your current terminal looks like
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png&quot;
+    href=&quot;/static/895ab6686d4a312c27ffff0f702e3644/70c4b/terminal-without-powerline.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1282,11 +1296,11 @@ For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Po
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;terminal_without_powerline&quot;
         title=&quot;&quot;
-        src=&quot;/static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png&quot;
-        srcset=&quot;/static/895ab6686d4a312c27ffff0f702e3644/1a291/terminal-without-powerline.png 148w,
-/static/895ab6686d4a312c27ffff0f702e3644/2bc4a/terminal-without-powerline.png 295w,
-/static/895ab6686d4a312c27ffff0f702e3644/fb8a0/terminal-without-powerline.png 590w,
-/static/895ab6686d4a312c27ffff0f702e3644/bf759/terminal-without-powerline.png 653w&quot;
+        src=&quot;/static/895ab6686d4a312c27ffff0f702e3644/b9e4f/terminal-without-powerline.png&quot;
+        srcset=&quot;/static/895ab6686d4a312c27ffff0f702e3644/cf440/terminal-without-powerline.png 148w,
+/static/895ab6686d4a312c27ffff0f702e3644/d2d38/terminal-without-powerline.png 295w,
+/static/895ab6686d4a312c27ffff0f702e3644/b9e4f/terminal-without-powerline.png 590w,
+/static/895ab6686d4a312c27ffff0f702e3644/70c4b/terminal-without-powerline.png 653w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1298,7 +1312,7 @@ For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Po
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot;
+    href=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/8d2b4/terminal-with-powerline.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1317,10 +1331,10 @@ For Debian based…]]></description><link>https://nightwarrior-xxx.github.io//Po
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Terminal with powerline&quot;
         title=&quot;&quot;
-        src=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg&quot;
-        srcset=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/4b016/terminal-with-powerline.jpeg 148w,
-/static/19e56b843f78e3f7078d0e909c0e87c4/0ee69/terminal-with-powerline.jpeg 295w,
-/static/19e56b843f78e3f7078d0e909c0e87c4/df4be/terminal-with-powerline.jpeg 474w&quot;
+        src=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/8d2b4/terminal-with-powerline.jpg&quot;
+        srcset=&quot;/static/19e56b843f78e3f7078d0e909c0e87c4/8ee9c/terminal-with-powerline.jpg 148w,
+/static/19e56b843f78e3f7078d0e909c0e87c4/ebbe7/terminal-with-powerline.jpg 295w,
+/static/19e56b843f78e3f7078d0e909c0e87c4/8d2b4/terminal-with-powerline.jpg 474w&quot;
         sizes=&quot;(max-width: 474px) 100vw, 474px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1346,7 +1360,7 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Make sure the last line in the above is the path where the &lt;code class=&quot;language-text&quot;&gt;powerline&lt;/code&gt; tool is installed. It might be different for different operating system. Set this path according to your operating system.&lt;/p&gt;
 &lt;h3&gt;Step 3&lt;/h3&gt;
 &lt;p&gt;Source your &lt;code class=&quot;language-text&quot;&gt;.bashrc&lt;/code&gt; file in order to add changes.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Invoking the command line with python]]></title><description><![CDATA[cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently…]]></description><link>https://nightwarrior-xxx.github.io//PythonInteractiveCommandLine/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io//PythonInteractiveCommandLine/</guid><pubDate>Mon, 28 Jan 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;source ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Invoking the command line with python]]></title><description><![CDATA[cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently…]]></description><link>https://nightwarrior-xxx.github.io/blog/PythonInteractiveCommandLine/</link><guid isPermaLink="false">https://nightwarrior-xxx.github.io/blog/PythonInteractiveCommandLine/</guid><pubDate>Mon, 28 Jan 2019 17:12:33 GMT</pubDate><content:encoded>&lt;p&gt;cmd2 is a tool for building interactive command line applications in python. It’s main aim is to help developers work fast and efficiently.&lt;/p&gt;
 &lt;h3&gt;Description&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;cmd2&lt;/code&gt; is a python module and is an extension of &lt;code class=&quot;language-text&quot;&gt;Cmd&lt;/code&gt; (which is a simple framework for writing line-oriented command interpreters).It’s main feature is autocompletion. &lt;/p&gt;
 &lt;h3&gt;Installation&lt;/h3&gt;
