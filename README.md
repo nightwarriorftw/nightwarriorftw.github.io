@@ -1,1 +1,3 @@
-## NightWarrior-xxx
+## Blogging Stuff
+
+Exclusively by `nightwarriorftw` :)
